@@ -1,0 +1,850 @@
+<title>Бенчмарк Ni-MH по каналам</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  --bg:#F6F8F6; --panel:#FFFFFF; --ink:#141A16; --ink-2:#3C4A41; --muted:#6D7C72;
+  --line:#DDE4DE; --line-2:#EDF1EE;
+  --gp:#0B6E38; --gp-soft:#EAF3EC; --gp-line:#BFD9C7;
+  --cm:#9A5B00; --cm-soft:#FBF1E2; --cm-line:#E6CFA8;
+  --up:#A33232; --down:#0B6E38;
+  --warn-bg:#FDF6E7; --warn-line:#E3C98A; --warn-ink:#6B4E11;
+  --shadow:0 1px 2px rgba(16,32,22,.05), 0 8px 24px -18px rgba(16,32,22,.35);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:#0E1311; --panel:#161C19; --ink:#E7EEE9; --ink-2:#B6C4BB; --muted:#8A998F;
+    --line:#26302B; --line-2:#1D2521;
+    --gp:#5FBE86; --gp-soft:#152219; --gp-line:#264D35;
+    --cm:#D9A45C; --cm-soft:#241C10; --cm-line:#4D3A1C;
+    --up:#E38080; --down:#5FBE86;
+    --warn-bg:#221B0D; --warn-line:#4E3F1A; --warn-ink:#E0C88A;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 30px -20px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"] {
+  --bg:#0E1311; --panel:#161C19; --ink:#E7EEE9; --ink-2:#B6C4BB; --muted:#8A998F;
+  --line:#26302B; --line-2:#1D2521;
+  --gp:#5FBE86; --gp-soft:#152219; --gp-line:#264D35;
+  --cm:#D9A45C; --cm-soft:#241C10; --cm-line:#4D3A1C;
+  --up:#E38080; --down:#5FBE86;
+  --warn-bg:#221B0D; --warn-line:#4E3F1A; --warn-ink:#E0C88A;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 30px -20px rgba(0,0,0,.8);
+}
+* { box-sizing:border-box; }
+body {
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+  font-size:15px; line-height:1.55; -webkit-font-smoothing:antialiased;
+}
+.wrap { max-width:1180px; margin:0 auto; padding:0 24px 96px; }
+.prose { max-width:68ch; }
+h1,h2,h3 { font-family:"IBM Plex Sans Condensed","IBM Plex Sans",sans-serif; text-wrap:balance; margin:0; }
+a { color:var(--gp); }
+a:focus-visible, summary:focus-visible { outline:2px solid var(--gp); outline-offset:2px; border-radius:3px; }
+
+/* ---------- masthead ---------- */
+.mast { border-bottom:1px solid var(--line); background:var(--panel); }
+.mast .wrap { padding-top:46px; padding-bottom:34px; }
+.kicker { font-family:"IBM Plex Mono",monospace; font-size:11.5px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--muted); margin:0 0 14px; }
+h1 { font-size:clamp(30px,4.6vw,46px); line-height:1.06; font-weight:700; letter-spacing:-.015em; }
+.dek { color:var(--ink-2); margin:16px 0 0; max-width:64ch; font-size:16.5px; }
+
+.facts { display:flex; flex-wrap:wrap; gap:0; margin-top:30px;
+  border:1px solid var(--line); border-radius:6px; overflow:hidden; }
+.fact { flex:1 1 150px; padding:14px 18px; border-right:1px solid var(--line); background:var(--panel); }
+.fact:last-child { border-right:0; }
+.fact b { display:block; font-family:"IBM Plex Mono",monospace; font-size:23px; font-weight:500;
+  letter-spacing:-.02em; font-variant-numeric:tabular-nums; }
+.fact span { display:block; font-size:12px; color:var(--muted); margin-top:3px; }
+
+/* ---------- callout ---------- */
+.note { margin:34px 0 0; padding:18px 20px; border:1px solid var(--warn-line);
+  background:var(--warn-bg); color:var(--warn-ink); border-radius:6px; font-size:14.5px; }
+.note h3 { font-size:14px; letter-spacing:.04em; text-transform:uppercase; margin:0 0 8px; }
+.note p { margin:0 0 8px; } .note p:last-child { margin-bottom:0; }
+
+/* ---------- legend ---------- */
+.legend { display:flex; flex-wrap:wrap; gap:20px; margin:26px 0 0; padding:14px 18px;
+  border:1px solid var(--line); border-radius:6px; background:var(--panel); font-size:13px; color:var(--ink-2); }
+.dot { display:inline-block; width:7px; height:7px; border-radius:50%; margin-right:7px;
+  vertical-align:.08em; flex:none; }
+.dot.ok { background:var(--gp); }
+.dot.ap { background:var(--cm); }
+
+/* ---------- channel ---------- */
+.chan { margin-top:56px; }
+.chead { display:flex; align-items:flex-end; justify-content:space-between; gap:20px;
+  padding-bottom:12px; border-bottom:2px solid var(--ink); margin-bottom:0; }
+.eyebrow { font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--muted); margin:0 0 4px; }
+.chead h2 { font-size:25px; font-weight:700; letter-spacing:-.01em; }
+.partners { margin:5px 0 0; color:var(--ink-2); font-size:13.5px; }
+.count { margin:0; font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--muted); white-space:nowrap; }
+
+/* ---------- table ---------- */
+.tw { overflow-x:auto; border:1px solid var(--line); border-top:0; border-radius:0 0 6px 6px;
+  background:var(--panel); box-shadow:var(--shadow); }
+table { border-collapse:collapse; width:100%; min-width:960px; font-size:13.5px; }
+thead th { font-family:"IBM Plex Sans Condensed",sans-serif; font-weight:600; text-align:left;
+  padding:8px 12px; white-space:nowrap; }
+tr.grp th { font-size:11.5px; letter-spacing:.16em; text-transform:uppercase; text-align:center;
+  padding:9px 12px; }
+tr.grp th.gp { background:var(--gp-soft); color:var(--gp); border-left:1px solid var(--gp-line);
+  border-right:1px solid var(--gp-line); border-top:2px solid var(--gp); }
+tr.grp th.cm { background:var(--cm-soft); color:var(--cm); border-right:1px solid var(--cm-line);
+  border-top:2px solid var(--cm); }
+tr.sub th { font-size:11.5px; color:var(--muted); letter-spacing:.03em;
+  border-bottom:1px solid var(--line); padding-bottom:9px; }
+tbody td { padding:11px 12px; border-bottom:1px solid var(--line-2); vertical-align:top; }
+tbody tr:last-child td { border-bottom:0; }
+tbody tr:hover td { background:color-mix(in srgb, var(--gp) 4%, transparent); }
+td.gpc { background:color-mix(in srgb, var(--gp-soft) 55%, transparent); }
+td.cmc { background:color-mix(in srgb, var(--cm-soft) 45%, transparent); }
+td.num, th:last-child { text-align:center; font-variant-numeric:tabular-nums;
+  font-family:"IBM Plex Mono",monospace; }
+td.size { font-family:"IBM Plex Mono",monospace; font-weight:500; white-space:nowrap; }
+td.brand { font-weight:600; white-space:nowrap; }
+.mn { display:block; font-weight:500; }
+.cap { display:block; color:var(--ink-2); font-family:"IBM Plex Mono",monospace; font-size:12px; margin-top:2px; }
+.store { display:inline-block; margin-top:5px; font-size:11px; color:var(--muted);
+  border:1px solid var(--line); border-radius:3px; padding:0 6px; }
+.src { display:inline-block; margin-top:6px; font-size:11px; text-decoration:none; color:var(--muted); }
+.src:hover { color:var(--gp); text-decoration:underline; }
+td.price { white-space:nowrap; font-variant-numeric:tabular-nums; }
+.rsp { font-family:"IBM Plex Mono",monospace; font-weight:500; }
+.pu { display:block; font-size:11.5px; color:var(--muted); font-family:"IBM Plex Mono",monospace; margin-left:14px; }
+.na { color:var(--muted); }
+.idx { font-weight:500; }
+.idx.up { color:var(--up); }
+.idx.down { color:var(--down); }
+
+/* ---------- packs ---------- */
+#packs table { min-width:1000px; }
+#packs .tw { border-top:1px solid var(--line); border-radius:6px; }
+#packs thead th { font-size:11.5px; color:var(--muted); text-transform:uppercase;
+  letter-spacing:.06em; border-bottom:1px solid var(--line); }
+tr.gprow td { background:color-mix(in srgb, var(--gp-soft) 60%, transparent); }
+td.an.solo { color:var(--cm); font-weight:500; }
+td.packs { font-family:"IBM Plex Mono",monospace; font-size:12.5px; }
+td.chans { color:var(--ink-2); font-size:12.5px; }
+
+/* ---------- method ---------- */
+.method { margin-top:56px; }
+.method h2 { font-size:22px; padding-bottom:10px; border-bottom:2px solid var(--ink); }
+.method h3 { font-size:14px; letter-spacing:.05em; text-transform:uppercase; color:var(--muted);
+  margin:28px 0 8px; font-family:"IBM Plex Mono",monospace; font-weight:400; }
+.method p, .method li { color:var(--ink-2); }
+.method ul { padding-left:20px; }
+.method li { margin:6px 0; }
+footer { margin-top:56px; padding-top:20px; border-top:1px solid var(--line);
+  font-size:12.5px; color:var(--muted); }
+@media (prefers-reduced-motion: reduce) { * { animation:none !important; transition:none !important; } }
+</style>
+
+<div class="mast">
+  <div class="wrap">
+    <p class="kicker">Ni-MH · AA / AAA · Российский рынок · Август 2026</p>
+    <h1>GP против конкурентов:<br>сравнение по каналам продаж</h1>
+    <p class="dek">Полка перезаряжаемых Ni-MH в пяти каналах: что стоит рядом с GP ReEnergy
+    и GP Recharge, в каких упаковках и по какой цене за элемент.</p>
+    <div class="facts">
+      <div class="fact"><b>5</b><span>каналов</span></div>
+      <div class="fact"><b>15</b><span>партнёров-ритейлеров</span></div>
+      <div class="fact"><b>44</b><span>пар сравнения</span></div>
+      <div class="fact"><b>13</b><span>конкурентных брендов</span></div>
+      <div class="fact"><b>42</b><span>вариантов упаковки</span></div>
+    </div>
+    <div class="note">
+      <h3>Ограничение по данным</h3>
+      <p>Прямой доступ к сайтам ритейлеров из рабочей среды закрыт сетевым прокси, поэтому
+      весь ассортимент и цены собраны через поисковую выдачу. Присутствие позиций в ассортименте
+      подтверждено; цены различаются по надёжности и размечены точками.</p>
+      <p><strong>Перед ценовым решением цены нужно перепроверить на сайтах партнёров.</strong></p>
+    </div>
+    <div class="legend">
+      <span><i class="dot ok"></i>цена из карточки товара — надёжна</span>
+      <span><i class="dot ap"></i>цена из поисковой сводки — требует подтверждения</span>
+      <span><span class="na">н/д</span> — позиция в ассортименте есть, цену получить не удалось</span>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+
+<section class="chan" id="online">
+  <header class="chead">
+    <div>
+      <p class="eyebrow">Online</p>
+      <h2>Онлайн</h2>
+      <p class="partners">Onlinetrade.ru, Ozon</p>
+    </div>
+    <p class="count">11 пар</p>
+  </header>
+  <div class="tw"><table>
+<thead>
+<tr class="grp">
+  <th class="sp" colspan="1"></th>
+  <th class="gp" colspan="3">GP</th>
+  <th class="cm" colspan="4">Конкурент</th>
+  <th class="sp"></th>
+</tr>
+<tr class="sub">
+  <th>Типоразмер</th>
+  <th>Упак.</th><th>Модель и ёмкость</th><th>RSP · ₽/шт</th>
+  <th>Бренд</th><th>Упак.</th><th>Модель и ёмкость</th><th>RSP · ₽/шт</th>
+  <th>Индекс</th>
+</tr></thead><tbody>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Recharge 270AAHC</span><span class="cap">2700 (на упак. 2600) мАч</span></td>
+<td class="price gpc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">1 160 ₽</span><span class="pu">580 ₽/шт</span></td>
+<td class="brand cmc">VARTA</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">VARTA Recharge Accu Power 5706301402</span><span class="cap">2700 мАч</span><br><a class="src" href="https://www.onlinetrade.ru/catalogue/akkumulyatory_aa_aaa-c455/varta/akkumulyator_varta_lr6_aa_2700_mah_up_2_sht_05706301402-58583.html" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">4</td>
+<td class="gpc"><span class="mn">GP Recharge 270AAHC-UC4</span><span class="cap">2700 мАч</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">VARTA</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">VARTA Accu Power 5706301404</span><span class="cap">2700 мАч</span><br><a class="src" href="https://www.onlinetrade.ru/catalogue/akkumulyatory_aa_aaa-c455/varta/capacity--2700_mah.html" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">1 650 ₽</span><span class="pu">412 ₽/шт</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">4</td>
+<td class="gpc"><span class="mn">GP Recharge 270AAHC-UC4</span><span class="cap">2700 мАч</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Panasonic</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">Panasonic 5410853052807</span><span class="cap">2700 мАч</span><br><a class="src" href="https://www.onlinetrade.ru/catalogue/akkumulyatory_aa_aaa-c455/panasonic/akkumulyator_panasonic_lr6_aa_2700_mah_up_4_sht_5410853052807-806007.html" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">4</td>
+<td class="gpc"><span class="mn">GP Recharge 250AAHC-2DECRC4</span><span class="cap">2500 мАч</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Duracell</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">Duracell Recharge Turbo HR6 / DX1500-4BL</span><span class="cap">2500 мАч</span><br><a class="src" href="https://www.ozon.ru/product/akkumulyatornaya-batareyka-duracell-recharge-turbo-aa-2500-mah-4-sht-139987436/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Recharge 250AAHC-UC2</span><span class="cap">2500 мАч</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Duracell</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">Duracell Recharge Turbo</span><span class="cap">2500 мАч</span><br><a class="src" href="https://www.ozon.ru/context/detail/id/139987434/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">4</td>
+<td class="gpc"><span class="mn">GP ReEnergy 260AAHCRGY</span><span class="cap">2600 мАч (LSD)</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">VARTA</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">VARTA Recharge Accu Power R2U 5716101404</span><span class="cap">2600 мАч (LSD)</span><br><a class="src" href="https://www.onlinetrade.ru/catalogue/akkumulyatory_aa_aaa-c455/varta/akkumulyator_varta_lr6_aa_2600_mah_r2u_up_4_sht_05716101404-161570.html" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP ReEnergy 210AAHCRGY-2CRCB2</span><span class="cap">2000–2100 мАч (LSD)</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">VARTA</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">VARTA R2U</span><span class="cap">2100 мАч (LSD)</span><br><a class="src" href="https://www.ozon.ru/category/akkumulyatornye-batareyki-15883/varta-26668103/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">4</td>
+<td class="gpc"><span class="mn">GP ReEnergy 210AAHCRGY</span><span class="cap">2000–2100 мАч (LSD)</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Panasonic</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">Panasonic Eneloop BK-3MCDE</span><span class="cap">2000 мАч (LSD)</span><br><a class="src" href="https://www.ozon.ru/category/akkumulyatornye-batareyki-aa/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AAA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Recharge 100AAAHC-2DECRC2</span><span class="cap">1000 мАч</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Duracell</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">Duracell Rechargeable HR03</span><span class="cap">900 мАч</span><br><a class="src" href="https://www.onlinetrade.ru/catalogue/akkumulyatory_aa_aaa-c455/gp/akkumulyator_gp_lr03_aaa_1000_mah_up_2_sht_gp_100aaahc_2decrc2-6495.html" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AAA</td>
+<td class="num gpc">4</td>
+<td class="gpc"><span class="mn">GP ReEnergy 100AAAHCRGY-2CRCB4</span><span class="cap">950 мАч (LSD)</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Duracell</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">Duracell Turbo 5000394098350</span><span class="cap">850 мАч</span><br><a class="src" href="https://www.onlinetrade.ru/catalogue/akkumulyatory_aa_aaa-c455/duracell/akkumulyator_duracell_turbo_aaa_850_mah_up_4_sht_zaryazhennye_5000394_098350-214524.html" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AAA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP ReEnergy 65AAAHCRGY-2CRCB2</span><span class="cap">650 мАч (LSD)</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">VARTA</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">VARTA R2U 56703101412</span><span class="cap">800 мАч (LSD)</span><br><a class="src" href="https://www.onlinetrade.ru/catalogue/akkumulyatory_aa_aaa-c455/varta/akkumulyator_varta_lr03_aaa_800_mah_r2u_up_2_sht_56703101412-58585.html" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+</tbody></table></div>
+</section>
+<section class="chan" id="discount">
+  <header class="chead">
+    <div>
+      <p class="eyebrow">Discounters, Private Brands</p>
+      <h2>Дискаунтеры, СТМ</h2>
+      <p class="partners">FixPrice</p>
+    </div>
+    <p class="count">2 пар</p>
+  </header>
+  <div class="tw"><table>
+<thead>
+<tr class="grp">
+  <th class="sp" colspan="1"></th>
+  <th class="gp" colspan="3">GP</th>
+  <th class="cm" colspan="4">Конкурент</th>
+  <th class="sp"></th>
+</tr>
+<tr class="sub">
+  <th>Типоразмер</th>
+  <th>Упак.</th><th>Модель и ёмкость</th><th>RSP · ₽/шт</th>
+  <th>Бренд</th><th>Упак.</th><th>Модель и ёмкость</th><th>RSP · ₽/шт</th>
+  <th>Индекс</th>
+</tr></thead><tbody>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">—</td>
+<td class="gpc"><span class="mn">GP Ni-MH в отдельной упаковке не представлен (только набор ЗУ GP PowerBank + 4×AA 1300 мАч — исключён по методике)</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Fix Price (СТМ, no-name)</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">Ni-MH</span><span class="cap">600 мАч · 600 циклов</span><br><a class="src" href="https://fix-price.com/catalog/dlya-doma/p-5014125-batareyki-akkumulyatornye-4-sht-aa" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">199 ₽</span><span class="pu">50 ₽/шт</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AAA</td>
+<td class="num gpc">—</td>
+<td class="gpc"><span class="mn">GP Ni-MH в отдельной упаковке не представлен</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Fix Price (СТМ, no-name)</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">Ni-MH</span><span class="cap">600 мАч · 600 циклов</span><br><a class="src" href="https://fix-price.com/catalog/dlya-doma/p-5014126-batareyki-akkumulyatornye-4-sht-aa" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">199 ₽</span><span class="pu">50 ₽/шт</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+</tbody></table></div>
+</section>
+<section class="chan" id="food">
+  <header class="chead">
+    <div>
+      <p class="eyebrow">Food, Soft discount</p>
+      <h2>Продуктовый ритейл, софт-дискаунт</h2>
+      <p class="partners">Ашан, Лента, Глобус, О&#x27;КЕЙ</p>
+    </div>
+    <p class="count">11 пар</p>
+  </header>
+  <div class="tw"><table>
+<thead>
+<tr class="grp">
+  <th class="sp" colspan="1"></th>
+  <th class="gp" colspan="3">GP</th>
+  <th class="cm" colspan="4">Конкурент</th>
+  <th class="sp"></th>
+</tr>
+<tr class="sub">
+  <th>Типоразмер</th>
+  <th>Упак.</th><th>Модель и ёмкость</th><th>RSP · ₽/шт</th>
+  <th>Бренд</th><th>Упак.</th><th>Модель и ёмкость</th><th>RSP · ₽/шт</th>
+  <th>Индекс</th>
+</tr></thead><tbody>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Recharge 230AAHC</span><span class="cap">2300 мАч</span><span class="store">Ашан</span></td>
+<td class="price gpc"><i class="dot ok" title="цена из карточки товара"></i><span class="rsp">455 ₽</span><span class="pu">228 ₽/шт</span></td>
+<td class="brand cmc">Energizer</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">Energizer Extreme</span><span class="cap">2300 мАч</span><span class="store">Ашан</span><br><a class="src" href="https://www.auchan.ru/product/batareyka-akkumulyatornaya-energizer-extreme-2300-mach-aa-2-sht/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ok" title="цена из карточки товара"></i><span class="rsp">635.99 ₽</span><span class="pu">318 ₽/шт</span></td>
+<td class="num"><span class="idx down">-28%</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Recharge 250AAHC</span><span class="cap">2500 мАч</span><span class="store">Ашан</span></td>
+<td class="price gpc"><i class="dot ok" title="цена из карточки товара"></i><span class="rsp">545 ₽</span><span class="pu">272 ₽/шт</span></td>
+<td class="brand cmc">Focusray</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">Focusray Rechargeable</span><span class="cap">2500 мАч</span><span class="store">Глобус</span><br><a class="src" href="https://online.globus.ru/products/akkumulyatory-aa-1-2v-2500mah-focusray-rechargeable-2-sht/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">409.99 ₽</span><span class="pu">205 ₽/шт</span></td>
+<td class="num"><span class="idx up">+33%</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Recharge 270AAHC</span><span class="cap">2700 мАч</span><span class="store">Ашан</span></td>
+<td class="price gpc"><i class="dot ok" title="цена из карточки товара"></i><span class="rsp">754 ₽</span><span class="pu">377 ₽/шт</span></td>
+<td class="brand cmc">Energizer</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">Energizer Extreme</span><span class="cap">2300 мАч</span><span class="store">Ашан</span><br><a class="src" href="https://www.auchan.ru/pokupki/akk-gp-2sht-2700aans-aa-ni-mh.html" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ok" title="цена из карточки товара"></i><span class="rsp">635.99 ₽</span><span class="pu">318 ₽/шт</span></td>
+<td class="num"><span class="idx up">+19%</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Recharge 250AAHC</span><span class="cap">2500 мАч</span><span class="store">Глобус</span></td>
+<td class="price gpc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">779.99 ₽</span><span class="pu">390 ₽/шт</span></td>
+<td class="brand cmc">Focusray</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">Focusray</span><span class="cap">2500 мАч</span><span class="store">Глобус</span><br><a class="src" href="https://online.globus.ru/catalog/dom-khobbi-tekhnika/elektrotovary/batareyki-i-akkumulyatory/akkumulyatory/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">409.99 ₽</span><span class="pu">205 ₽/шт</span></td>
+<td class="num"><span class="idx up">+90%</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Recharge 270AAHC-BC2</span><span class="cap">2700 мАч</span><span class="store">Лента, Глобус</span></td>
+<td class="price gpc"><i class="dot ok" title="цена из карточки товара"></i><span class="rsp">849.99 ₽</span><span class="pu">425 ₽/шт</span></td>
+<td class="brand cmc">VARTA</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">VARTA Recharge Accu Power</span><span class="cap">2100 мАч</span><span class="store">Глобус</span><br><a class="src" href="https://lenta.com/product/akkumulyator-gp-270aahcbc2-2700-aa-singapur-2sht-068623/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">849.99 ₽</span><span class="pu">212 ₽/шт</span></td>
+<td class="num"><span class="idx up">+100%</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Recharge 130AAHC-U2</span><span class="cap">1300 мАч</span><span class="store">Лента</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Focusray</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">Focusray</span><span class="cap">2500 мАч</span><span class="store">Глобус</span><br><a class="src" href="https://lenta.com/product/akkumulyator-gp-130aahcu2-1300-aa-kitajj-2sht-030857/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">409.99 ₽</span><span class="pu">205 ₽/шт</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AAA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Recharge 100AAAHC</span><span class="cap">1000 мАч</span><span class="store">Глобус, Лента</span></td>
+<td class="price gpc"><i class="dot ok" title="цена из карточки товара"></i><span class="rsp">529.99 ₽</span><span class="pu">265 ₽/шт</span></td>
+<td class="brand cmc">VARTA</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">VARTA</span><span class="cap">1000 мАч</span><span class="store">Глобус</span><br><a class="src" href="https://online.globus.ru/catalog/dom-khobbi-tekhnika/elektrotovary/batareyki-i-akkumulyatory/akkumulyatory/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">929.99 ₽</span><span class="pu">232 ₽/шт</span></td>
+<td class="num"><span class="idx up">+14%</span></td>
+</tr>
+<tr>
+<td class="size">AAA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Recharge 85AAAHC</span><span class="cap">850 мАч</span><span class="store">Ашан</span></td>
+<td class="price gpc"><i class="dot ok" title="цена из карточки товара"></i><span class="rsp">443.99 ₽</span><span class="pu">222 ₽/шт</span></td>
+<td class="brand cmc">Energizer</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">Energizer Extreme</span><span class="cap">800 мАч</span><span class="store">Ашан</span><br><a class="src" href="https://www.auchan.ru/pokupki/akkum-enr-aaa-800-mah-2-sht.html" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ok" title="цена из карточки товара"></i><span class="rsp">513 ₽</span><span class="pu">256 ₽/шт</span></td>
+<td class="num"><span class="idx down">-13%</span></td>
+</tr>
+<tr>
+<td class="size">AAA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Recharge 75AAAHC-2DECRC2</span><span class="cap">750 мАч</span><span class="store">Лента</span></td>
+<td class="price gpc"><i class="dot ok" title="цена из карточки товара"></i><span class="rsp">451.59 ₽</span><span class="pu">226 ₽/шт</span></td>
+<td class="brand cmc">VARTA</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">VARTA R2U</span><span class="cap">800 мАч</span><span class="store">Глобус</span><br><a class="src" href="https://lenta.com/catalog/vse-dlya-doma/lampochki-elementy-pitaniya/elementy-pitaniya/f/brandname=gp/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">399.99 ₽</span><span class="pu">200 ₽/шт</span></td>
+<td class="num"><span class="idx up">+13%</span></td>
+</tr>
+<tr>
+<td class="size">AAA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Recharge 65AAAHC</span><span class="cap">650 мАч</span><span class="store">Ашан</span></td>
+<td class="price gpc"><i class="dot ok" title="цена из карточки товара"></i><span class="rsp">263.99 ₽</span><span class="pu">132 ₽/шт</span></td>
+<td class="brand cmc">Focusray</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">Focusray Rechargeable</span><span class="cap">900 мАч</span><span class="store">Глобус</span><br><a class="src" href="https://www.auchan.ru/product/batareyka-akkumulyatornaya-gp-rechargeable-650-mach-tiporazmer-aaa-2-sht/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">219.99 ₽</span><span class="pu">110 ₽/шт</span></td>
+<td class="num"><span class="idx up">+20%</span></td>
+</tr>
+<tr>
+<td class="size">AAA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Smart Energy 40AAAHC</span><span class="cap">400 мАч</span><span class="store">Лента</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Focusray</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">Focusray</span><span class="cap">900 мАч</span><span class="store">Глобус</span><br><a class="src" href="https://lenta.com/product/akkumulyator-gp-smart-energy-40aaahc-2sht-aaa-400mah-kitajj-381759/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">219.99 ₽</span><span class="pu">110 ₽/шт</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+</tbody></table></div>
+</section>
+<section class="chan" id="upmarket">
+  <header class="chead">
+    <div>
+      <p class="eyebrow">Upmarket, CES, DIY</p>
+      <h2>Апмаркет CES / DIY</h2>
+      <p class="partners">М.Видео, Эльдорадо, ДНС, Ситилинк</p>
+    </div>
+    <p class="count">12 пар</p>
+  </header>
+  <div class="tw"><table>
+<thead>
+<tr class="grp">
+  <th class="sp" colspan="1"></th>
+  <th class="gp" colspan="3">GP</th>
+  <th class="cm" colspan="4">Конкурент</th>
+  <th class="sp"></th>
+</tr>
+<tr class="sub">
+  <th>Типоразмер</th>
+  <th>Упак.</th><th>Модель и ёмкость</th><th>RSP · ₽/шт</th>
+  <th>Бренд</th><th>Упак.</th><th>Модель и ёмкость</th><th>RSP · ₽/шт</th>
+  <th>Индекс</th>
+</tr></thead><tbody>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Recharge 270AAHC-2DECRC2</span><span class="cap">2700 мАч</span><span class="store">ДНС</span></td>
+<td class="price gpc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">999 ₽</span><span class="pu">500 ₽/шт</span></td>
+<td class="brand cmc">Duracell</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">Duracell Rechargeable HR6-4BL</span><span class="cap">2500 мАч</span><span class="store">ДНС</span><br><a class="src" href="https://www.dns-shop.ru/product/b04f7e4d7ac03120/akkumulator-duracell-hr6-4bl-2500-mac/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">1 950 ₽</span><span class="pu">488 ₽/шт</span></td>
+<td class="num"><span class="idx up">+2%</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">4</td>
+<td class="gpc"><span class="mn">GP Recharge 270AAHC-2DECRC4</span><span class="cap">2700 мАч</span><span class="store">ДНС</span></td>
+<td class="price gpc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">1 750 ₽</span><span class="pu">438 ₽/шт</span></td>
+<td class="brand cmc">Duracell</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">Duracell Rechargeable HR6-4BL</span><span class="cap">2500 мАч</span><span class="store">ДНС, Ситилинк</span><br><a class="src" href="https://www.citilink.ru/product/aa-akkumulyatornaya-batareika-duracell-rechargeable-hr6-4bl-4-sht-2500-977923/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">1 950 ₽</span><span class="pu">488 ₽/шт</span></td>
+<td class="num"><span class="idx down">-10%</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">6</td>
+<td class="gpc"><span class="mn">GP Recharge 270AAHC-CRB6</span><span class="cap">2700 мАч</span><span class="store">ДНС</span></td>
+<td class="price gpc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">2 399 ₽</span><span class="pu">400 ₽/шт</span></td>
+<td class="brand cmc">Camelion</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">Camelion Always Ready</span><span class="cap">2700 мАч</span><span class="store">ДНС</span><br><a class="src" href="https://www.dns-shop.ru/catalog/recipe/253ba88d4a3c2bec/akkumulatory-aa/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">10</td>
+<td class="gpc"><span class="mn">GP Recharge 270AAHC-CRB10</span><span class="cap">2700 мАч</span><span class="store">ДНС</span></td>
+<td class="price gpc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">3 299 ₽</span><span class="pu">330 ₽/шт</span></td>
+<td class="brand cmc">Camelion</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">Camelion</span><span class="cap">2500 мАч</span><span class="store">ДНС, Ozon</span><br><a class="src" href="https://www.dns-shop.ru/catalog/recipe/253ba88d4a3c2bec/akkumulatory-aa/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">364 ₽</span><span class="pu">182 ₽/шт</span></td>
+<td class="num"><span class="idx up">+81%</span></td>
+</tr>
+<tr>
+<td class="size">AA (HR6)</td>
+<td class="num gpc">6</td>
+<td class="gpc"><span class="mn">GP ReEnergy</span><span class="cap">2600 мАч</span><span class="store">Эльдорадо</span></td>
+<td class="price gpc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">2 899 ₽</span><span class="pu">483 ₽/шт</span></td>
+<td class="brand cmc">Duracell</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">Duracell Rechargeable HR6-4BL</span><span class="cap">2500 мАч</span><br><a class="src" href="https://www.eldorado.ru/c/akkumulyatory_1120696/b/GP/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">1 950 ₽</span><span class="pu">488 ₽/шт</span></td>
+<td class="num"><span class="idx down">-1%</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP ReEnergy 180AAHCRGY-2CRCB2</span><span class="cap">1800 мАч</span><span class="store">ДНС</span></td>
+<td class="price gpc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">799 ₽</span><span class="pu">400 ₽/шт</span></td>
+<td class="brand cmc">Camelion</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">Camelion</span><span class="cap">1500 мАч</span><span class="store">ДНС</span><br><a class="src" href="https://www.dns-shop.ru/catalog/recipe/253ba88d4a3c2bec/akkumulatory-aa/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP ReCyko 210AAHCB</span><span class="cap">2000 мАч</span><span class="store">Ситилинк</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Panasonic</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">Panasonic Eneloop</span><span class="cap">2000 мАч</span><span class="store">ДНС</span><br><a class="src" href="https://www.citilink.ru/product/aa-akkumulyator-gp-recyko-210aahcb-2-sht-2000mach-558961/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">4</td>
+<td class="gpc"><span class="mn">GP Recharge 250AAHC</span><span class="cap">2500 мАч</span><span class="store">ДНС</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Panasonic</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">Panasonic Eneloop PRO BK-3HCDE</span><span class="cap">2500 мАч</span><span class="store">ДНС</span><br><a class="src" href="https://www.dns-shop.ru/product/0a15d1a9b1443330/akkumulator-panasonic-eneloop-pro-2500-mac/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AAA (HR03)</td>
+<td class="num gpc">6</td>
+<td class="gpc"><span class="mn">GP ReEnergy</span><span class="cap">950 мАч</span><span class="store">Эльдорадо</span></td>
+<td class="price gpc"><i class="dot ap" title="цена по данным поисковой выдачи — требует подтверждения"></i><span class="rsp">2 199 ₽</span><span class="pu">366 ₽/шт</span></td>
+<td class="brand cmc">Duracell</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">Duracell Rechargeable HR03-4BL</span><span class="cap">900 мАч</span><span class="store">Ситилинк</span><br><a class="src" href="https://www.citilink.ru/product/aaa-akkumulyator-duracell-rechargeable-hr03-4bl-4-sht-850mach-977919/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AAA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Recharge 100AAAHC</span><span class="cap">1000 мАч</span><span class="store">Ситилинк, М.Видео</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Duracell</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">Duracell HR03</span><span class="cap">900 мАч</span><span class="store">ДНС</span><br><a class="src" href="https://www.dns-shop.ru/product/292b44541d243330/akkumulator-duracell-aaa-hr03-900-mah-2-st/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AAA</td>
+<td class="num gpc">4</td>
+<td class="gpc"><span class="mn">GP Recharge 100AAAHC-2CR4</span><span class="cap">1000 мАч</span><span class="store">М.Видео</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Duracell</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">Duracell Rechargeable HR03-4BL</span><span class="cap">900 мАч</span><span class="store">Ситилинк</span><br><a class="src" href="https://www.mvideo.ru/aksessuary-dlya-doma-50/batareiki-i-akkumulyatory-296/f/brand=gp" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AAA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP ReCyko 85AAAHCBLL-CR2</span><span class="cap">820 мАч</span><span class="store">Ситилинк</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Camelion</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">Camelion Always Ready</span><span class="cap">800–900 мАч</span><br><a class="src" href="https://www.citilink.ru/product/aaa-akkumulyator-gp-recyko-gp85aaahcbll-cr2-2-sht-820mach-558960/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+</tbody></table></div>
+</section>
+<section class="chan" id="specialty">
+  <header class="chead">
+    <div>
+      <p class="eyebrow">Specialty, CES, DIY</p>
+      <h2>Специализированный CES / DIY</h2>
+      <p class="partners">ВсеИнструменты, ОБИ, Лемана ПРО (Леруа Мерлен), крупные порталы по рыбалке</p>
+    </div>
+    <p class="count">8 пар</p>
+  </header>
+  <div class="tw"><table>
+<thead>
+<tr class="grp">
+  <th class="sp" colspan="1"></th>
+  <th class="gp" colspan="3">GP</th>
+  <th class="cm" colspan="4">Конкурент</th>
+  <th class="sp"></th>
+</tr>
+<tr class="sub">
+  <th>Типоразмер</th>
+  <th>Упак.</th><th>Модель и ёмкость</th><th>RSP · ₽/шт</th>
+  <th>Бренд</th><th>Упак.</th><th>Модель и ёмкость</th><th>RSP · ₽/шт</th>
+  <th>Индекс</th>
+</tr></thead><tbody>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">6</td>
+<td class="gpc"><span class="mn">GP Recharge 270AAHC4/2-CR6</span><span class="cap">2700 мАч</span><span class="store">Лемана ПРО</span></td>
+<td class="price gpc"><i class="dot ok" title="цена из карточки товара"></i><span class="rsp">2 564 ₽</span><span class="pu">427 ₽/шт</span></td>
+<td class="brand cmc">Lexman (СТМ Леруа)</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">Lexman</span><span class="cap">2400 мАч</span><span class="store">Лемана ПРО</span><br><a class="src" href="https://barnaul.lemanapro.ru/product/akkumulyator-gp-270aahc4-2-cr6-ni-mh-hr6-aa-2700-mach-12v-6-sht-81976790/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">8</td>
+<td class="gpc"><span class="mn">GP Recharge 270AAHC4/4-2CR8</span><span class="cap">2700 мАч</span><span class="store">ВсеИнструменты</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Robiton</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">Robiton 2850MHAA</span><span class="cap">2850 мАч</span><br><a class="src" href="https://www.vseinstrumenti.ru/product/perezaryazhaemye-akkumulyatory-gp-270aahc-aa-emkost-2700-mach-4-4-sht-270aahc4-4-2cr8-1158463/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">6</td>
+<td class="gpc"><span class="mn">GP Recharge 270AAHC4/2-2CR6</span><span class="cap">2700 мАч</span><span class="store">ВсеИнструменты</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Robiton</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">Robiton 2500MHAA</span><span class="cap">2500 мАч</span><br><a class="src" href="https://www.vseinstrumenti.ru/product/perezaryazhaemye-akkumulyatory-gp-270aahc-emkost-2700-mach-4-2sht-270aahc4-2-2cr6-991203/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Recharge 230AAHC</span><span class="cap">2300 мАч</span><span class="store">Лемана ПРО</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Lexman (СТМ Леруа)</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">Lexman</span><span class="cap">2400 мАч</span><span class="store">Лемана ПРО</span><br><a class="src" href="https://leroymerlin.ru/product/akkumulyator-gp-aa-ni-mh-11405185/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AAA</td>
+<td class="num gpc">4</td>
+<td class="gpc"><span class="mn">GP Recharge 100AAAHC</span><span class="cap">1000 мАч</span><span class="store">ВсеИнструменты</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">IEK GREEN</td>
+<td class="num cmc">4</td>
+<td class="cmc"><span class="mn">IEK GREEN Ni-MH</span><span class="cap">1100 мАч</span><span class="store">ОБИ</span><br><a class="src" href="https://obi.ru/products/akkumuljator-green-ni-mh-aaa-1100mach-4sht-blister-iek-5709955" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ok" title="цена из карточки товара"></i><span class="rsp">839 ₽</span><span class="pu">210 ₽/шт</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AAA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Recharge 100AAAHC</span><span class="cap">1000 мАч</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">IEK GREEN</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">IEK GREEN Ni-MH</span><span class="cap">1100 мАч</span><span class="store">Лемана ПРО</span><br><a class="src" href="https://barnaul.lemanapro.ru/product/akkumulyator-iek-green-ni-mh-aaa-1100mach-2-sht-91589318/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ok" title="цена из карточки товара"></i><span class="rsp">405 ₽</span><span class="pu">202 ₽/шт</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AAA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Recharge 85AAAHC</span><span class="cap">850 мАч</span><span class="store">ВсеИнструменты</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Космос</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">Космос HR03 Ni-MH</span><span class="cap">800 мАч</span><span class="store">Лемана ПРО</span><br><a class="src" href="https://ivanovo.lemanapro.ru/product/akkumulyatornaya-batareyka-kosmos-aaa-hr03-ni-mh-800-mach-2-sht-90160927/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><i class="dot ok" title="цена из карточки товара"></i><span class="rsp">278 ₽</span><span class="pu">139 ₽/шт</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+<tr>
+<td class="size">AAA</td>
+<td class="num gpc">2</td>
+<td class="gpc"><span class="mn">GP Recharge 85AAAHC</span><span class="cap">850 мАч</span></td>
+<td class="price gpc"><span class="na">н/д</span></td>
+<td class="brand cmc">Robiton</td>
+<td class="num cmc">2</td>
+<td class="cmc"><span class="mn">Robiton 1100MHAAA</span><span class="cap">1100 мАч</span><span class="store">ВсеИнструменты, рыболовные порталы</span><br><a class="src" href="https://www.robiton.ru/product/10187/" target="_blank" rel="noopener">карточка&nbsp;товара&nbsp;↗</a></td>
+<td class="price cmc"><span class="na">н/д</span></td>
+<td class="num"><span class="na">&mdash;</span></td>
+</tr>
+</tbody></table></div>
+</section>
+
+<section class="chan" id="packs">
+  <header class="chead">
+    <div>
+      <p class="eyebrow">Полный перечень</p>
+      <h2>Все варианты упаковок в категории</h2>
+      <p class="partners">Включая позиции, у которых нет прямого аналога у других брендов</p>
+    </div>
+    <p class="count">42 позиций</p>
+  </header>
+  <div class="tw"><table>
+    <thead><tr><th>Бренд</th><th>Линейка</th><th>Тип</th><th>мАч</th>
+    <th>Упаковки, шт</th><th>Каналы</th><th>Аналог у других брендов</th></tr></thead>
+    <tbody><tr class="gprow"><td class="brand">GP</td><td>ReEnergy (LSD)</td><td class="size">AA</td><td class="num">2600</td><td class="packs">2 / 4 / 6 / 12 / 18</td><td class="chans">Online, Upmarket CES</td><td class="an ">Да — VARTA R2U 2600 (4)</td></tr><tr class="gprow"><td class="brand">GP</td><td>ReEnergy (LSD)</td><td class="size">AA</td><td class="num">2000–2100</td><td class="packs">2 / 4</td><td class="chans">Online, Upmarket CES</td><td class="an ">Да — VARTA R2U 2100, Eneloop 2000</td></tr><tr class="gprow"><td class="brand">GP</td><td>ReEnergy (LSD)</td><td class="size">AA</td><td class="num">1800</td><td class="packs">2</td><td class="chans">Upmarket CES (ДНС)</td><td class="an solo">Нет прямого аналога</td></tr><tr class="gprow"><td class="brand">GP</td><td>ReEnergy (LSD)</td><td class="size">AAA</td><td class="num">950</td><td class="packs">2 / 4 / 6 / 18</td><td class="chans">Online, Upmarket CES</td><td class="an ">Да — Duracell 900, VARTA 800</td></tr><tr class="gprow"><td class="brand">GP</td><td>ReEnergy (LSD)</td><td class="size">AAA</td><td class="num">650</td><td class="packs">2</td><td class="chans">Online, Food</td><td class="an solo">Нет прямого аналога (ближайший VARTA 800)</td></tr><tr class="gprow"><td class="brand">GP</td><td>Recharge</td><td class="size">AA</td><td class="num">2700 (на упак. 2600)</td><td class="packs">2 / 4 / 6 / 8 / 10 / 12 / 16 / 18</td><td class="chans">Все каналы</td><td class="an ">Да — VARTA 2700, Panasonic 2700, Camelion 2700, Robiton 2850</td></tr><tr class="gprow"><td class="brand">GP</td><td>Recharge</td><td class="size">AA</td><td class="num">2500</td><td class="packs">2 / 4</td><td class="chans">Online, Food, Upmarket CES</td><td class="an ">Да — Duracell 2500, Eneloop PRO 2500, Camelion 2500, Focusray 2500, Robiton 2500</td></tr><tr class="gprow"><td class="brand">GP</td><td>Recharge</td><td class="size">AA</td><td class="num">2300</td><td class="packs">2</td><td class="chans">Food (Ашан), Лемана ПРО</td><td class="an ">Да — Energizer Extreme 2300, Lexman 2400</td></tr><tr class="gprow"><td class="brand">GP</td><td>Recharge</td><td class="size">AA</td><td class="num">1300</td><td class="packs">2</td><td class="chans">Food (Лента), Upmarket CES</td><td class="an solo">Нет прямого аналога (ближайший Camelion 1500)</td></tr><tr class="gprow"><td class="brand">GP</td><td>Recharge</td><td class="size">AAA</td><td class="num">1000</td><td class="packs">2 / 4 / 10 / 12</td><td class="chans">Все каналы</td><td class="an ">Да — IEK GREEN 1100, Navigator 1000, VARTA 1000, Robiton 1100</td></tr><tr class="gprow"><td class="brand">GP</td><td>Recharge</td><td class="size">AAA</td><td class="num">850</td><td class="packs">2</td><td class="chans">Online, Food, Specialty</td><td class="an ">Да — Duracell 850/900, Космос 800, Energizer 800</td></tr><tr class="gprow"><td class="brand">GP</td><td>Recharge</td><td class="size">AAA</td><td class="num">750</td><td class="packs">2</td><td class="chans">Food (Лента), Upmarket CES</td><td class="an ">Да — Космос 800, VARTA 800</td></tr><tr class="gprow"><td class="brand">GP</td><td>Recharge</td><td class="size">AAA</td><td class="num">650</td><td class="packs">2</td><td class="chans">Food (Ашан)</td><td class="an solo">Нет прямого аналога</td></tr><tr class="gprow"><td class="brand">GP</td><td>Smart Energy</td><td class="size">AAA</td><td class="num">400</td><td class="packs">2</td><td class="chans">Food (Лента), Upmarket CES (ДНС промо)</td><td class="an solo">Нет прямого аналога</td></tr><tr class="gprow"><td class="brand">GP</td><td>Recharge (комбо)</td><td class="size">AA+AAA</td><td class="num">2700 + 1000 / 2600 + 950</td><td class="packs">4 (2+2) / 8 (4+4)</td><td class="chans">Upmarket CES, Specialty</td><td class="an solo">Нет прямого аналога — уникальный формат GP</td></tr><tr class=""><td class="brand">VARTA</td><td>Recharge Accu Power</td><td class="size">AA</td><td class="num">2700</td><td class="packs">2 / 4</td><td class="chans">Online</td><td class="an ">Да — GP 2700</td></tr><tr class=""><td class="brand">VARTA</td><td>Recharge Accu Power R2U</td><td class="size">AA</td><td class="num">2600</td><td class="packs">4</td><td class="chans">Online</td><td class="an ">Да — GP ReEnergy 2600</td></tr><tr class=""><td class="brand">VARTA</td><td>Power Accu R2U</td><td class="size">AA</td><td class="num">2500</td><td class="packs">4</td><td class="chans">Online</td><td class="an ">Да — GP 2500</td></tr><tr class=""><td class="brand">VARTA</td><td>Recharge Accu Power</td><td class="size">AA</td><td class="num">2100</td><td class="packs">2 / 4</td><td class="chans">Online, Food (Глобус)</td><td class="an ">Да — GP ReEnergy 2000–2100</td></tr><tr class=""><td class="brand">VARTA</td><td>Recharge Accu Power</td><td class="size">AAA</td><td class="num">1000</td><td class="packs">4</td><td class="chans">Food (Глобус)</td><td class="an ">Да — GP 1000</td></tr><tr class=""><td class="brand">VARTA</td><td>Recharge Accu R2U</td><td class="size">AAA</td><td class="num">800</td><td class="packs">2</td><td class="chans">Online, Food (Глобус)</td><td class="an ">Да — GP 850/750</td></tr><tr class=""><td class="brand">Duracell</td><td>Recharge Turbo</td><td class="size">AA</td><td class="num">2500</td><td class="packs">2 / 4</td><td class="chans">Online, Upmarket CES</td><td class="an ">Да — GP 2500</td></tr><tr class=""><td class="brand">Duracell</td><td>Rechargeable</td><td class="size">AAA</td><td class="num">850–900</td><td class="packs">2 / 4</td><td class="chans">Online, Upmarket CES, Specialty (ОБИ)</td><td class="an ">Да — GP 850/950</td></tr><tr class=""><td class="brand">Panasonic</td><td>Обычные Ni-MH</td><td class="size">AA</td><td class="num">2700</td><td class="packs">4</td><td class="chans">Online</td><td class="an ">Да — GP 2700</td></tr><tr class=""><td class="brand">Panasonic</td><td>Eneloop</td><td class="size">AA</td><td class="num">2000</td><td class="packs">2 / 4</td><td class="chans">Online, Upmarket CES</td><td class="an ">Да — GP ReEnergy 2000–2100</td></tr><tr class=""><td class="brand">Panasonic</td><td>Eneloop PRO</td><td class="size">AA</td><td class="num">2500</td><td class="packs">2 / 4</td><td class="chans">Upmarket CES</td><td class="an ">Да — GP 2500</td></tr><tr class=""><td class="brand">Energizer</td><td>Extreme (LSD)</td><td class="size">AA</td><td class="num">2300</td><td class="packs">2 / 4</td><td class="chans">Food (Ашан, Лента)</td><td class="an ">Да — GP 2300</td></tr><tr class=""><td class="brand">Energizer</td><td>Extreme (LSD)</td><td class="size">AAA</td><td class="num">800</td><td class="packs">2 / 4</td><td class="chans">Food (Ашан, Глобус)</td><td class="an ">Да — GP 850/750</td></tr><tr class=""><td class="brand">Camelion</td><td>Always Ready (LSD)</td><td class="size">AA</td><td class="num">2700</td><td class="packs">2 / 4</td><td class="chans">Upmarket CES</td><td class="an ">Да — GP 2700</td></tr><tr class=""><td class="brand">Camelion</td><td>Ni-MH</td><td class="size">AA</td><td class="num">2500</td><td class="packs">2 / 4</td><td class="chans">Online, Upmarket CES</td><td class="an ">Да — GP 2500</td></tr><tr class=""><td class="brand">Camelion</td><td>Ni-MH</td><td class="size">AA</td><td class="num">1500</td><td class="packs">2</td><td class="chans">Upmarket CES</td><td class="an solo">Нет прямого аналога (GP 1300 — ближайший)</td></tr><tr class=""><td class="brand">Robiton</td><td>Ni-MH</td><td class="size">AA</td><td class="num">2850</td><td class="packs">2</td><td class="chans">Specialty, рыболовные порталы</td><td class="an ">Да — GP 2700</td></tr><tr class=""><td class="brand">Robiton</td><td>Ni-MH</td><td class="size">AA</td><td class="num">2500</td><td class="packs">2 / 4</td><td class="chans">Specialty</td><td class="an ">Да — GP 2500</td></tr><tr class=""><td class="brand">Robiton</td><td>Ni-MH</td><td class="size">AAA</td><td class="num">1100</td><td class="packs">2 / 4</td><td class="chans">Specialty</td><td class="an ">Да — GP 1000</td></tr><tr class=""><td class="brand">Focusray</td><td>Rechargeable</td><td class="size">AA</td><td class="num">2500</td><td class="packs">2</td><td class="chans">Food (Глобус)</td><td class="an ">Да — GP 2500</td></tr><tr class=""><td class="brand">Focusray</td><td>Rechargeable</td><td class="size">AAA</td><td class="num">900</td><td class="packs">2</td><td class="chans">Food (Глобус)</td><td class="an ">Да — GP 950/850</td></tr><tr class=""><td class="brand">Космос</td><td>Ni-MH</td><td class="size">AAA</td><td class="num">800</td><td class="packs">2</td><td class="chans">Specialty (Лемана ПРО)</td><td class="an ">Да — GP 850/750</td></tr><tr class=""><td class="brand">IEK</td><td>GREEN Ni-MH</td><td class="size">AAA</td><td class="num">1100</td><td class="packs">2 / 4</td><td class="chans">Specialty (ОБИ, Лемана ПРО)</td><td class="an ">Да — GP 1000</td></tr><tr class=""><td class="brand">Navigator</td><td>Ni-MH</td><td class="size">AAA</td><td class="num">1000</td><td class="packs">1 / 2</td><td class="chans">Specialty (ОБИ)</td><td class="an ">Да — GP 1000</td></tr><tr class=""><td class="brand">Lexman</td><td>СТМ Леруа</td><td class="size">AA</td><td class="num">2400</td><td class="packs">4</td><td class="chans">Specialty (Лемана ПРО)</td><td class="an ">Да — GP 2300/2500</td></tr><tr class=""><td class="brand">Fix Price</td><td>СТМ (no-name)</td><td class="size">AA</td><td class="num">600</td><td class="packs">4</td><td class="chans">Discounters / Private Brands</td><td class="an solo">Нет прямого аналога у GP</td></tr><tr class=""><td class="brand">Fix Price</td><td>СТМ (no-name)</td><td class="size">AAA</td><td class="num">600</td><td class="packs">4</td><td class="chans">Discounters / Private Brands</td><td class="an solo">Нет прямого аналога у GP</td></tr></tbody>
+  </table></div>
+</section>
+
+<section class="method prose">
+  <h2>Методика</h2>
+
+  <h3>Что сравнивалось</h3>
+  <p>Перезаряжаемые элементы питания Ni-MH типоразмеров AA (HR6) и AAA (HR03).
+  Со стороны GP взяты актуальные для России грейды — <strong>GP ReEnergy</strong> (LSD, ready-to-use)
+  и <strong>GP Recharge / Rechargeable</strong> (классический High Capacity).
+  Линейка ReCyko в анализ не включалась как неактуальная для российского рынка;
+  единичные остатки ReCyko в Ситилинке помечены в таблице отдельно.</p>
+
+  <h3>Правило сопоставления</h3>
+  <p>Сравнение только внутри одного типоразмера. Точное совпадение ёмкости не требовалось —
+  сопоставимыми считались соседние ёмкостные ступени: AA 2500 ↔ 2600 ↔ 2700,
+  AAA 850 ↔ 950 ↔ 1000. Наборы «аккумуляторы + зарядное устройство» исключены.
+  На каждый канал взято не более трёх конкурентных брендов — крупнейших по представленности
+  именно в этом канале.</p>
+
+  <h3>Как читать цифры</h3>
+  <ul>
+    <li><strong>₽/шт</strong> — RSP, делённая на количество элементов в упаковке. Основная метрика:
+    только она позволяет честно сравнить блистер на 2 и промо-набор на 18.</li>
+    <li><strong>Индекс</strong> — насколько ₽/шт GP выше (красный) или ниже (зелёный) конкурента
+    в той же строке.</li>
+    <li>Индекс считается только там, где известны обе цены. Строк с полными данными
+    меньше половины — это следствие ограничения выше, а не отсутствия товара на полке.</li>
+  </ul>
+
+  <h3>Наблюдения по каналам</h3>
+  <ul>
+    <li><strong>FixPrice</strong> — отдельных Ni-MH SKU бренда GP нет, только набор GP PowerBank
+    с четырьмя AA 1300 мАч, который исключён по методике. Единственный конкурент — СТМ сети:
+    4 шт AA или AAA по 600 мАч за 199 ₽. Это ценовой «пол» всей категории, около 50 ₽ за элемент.</li>
+    <li><strong>О'КЕЙ</strong> — онлайн-каталог непродовольственной группы практически
+    не индексируется; ассортимент Ni-MH подтвердить не удалось.</li>
+    <li><strong>Рыболовные порталы</strong> (SpinningLine, fMagazin) — Ni-MH представлены точечно,
+    доминирует Robiton; присутствие GP не подтверждено.</li>
+    <li><strong>Маркировка GP</strong> — серия 270AAHC («2700 series») на упаковке для России
+    маркируется как 2600 мАч (минимальная ёмкость). Поэтому в таблице для одного и того же
+    элемента встречаются обе цифры.</li>
+    <li><strong>Уникальные форматы GP</strong> — комбинированные упаковки AA + AAA (4 и 8 шт)
+    и мелкоёмкостные AA 1300 / AAA 400 прямых аналогов у конкурентов не имеют.</li>
+  </ul>
+
+  <footer>Источник данных: публичные страницы Onlinetrade.ru, Ozon, Fix Price, Ашан, Лента,
+  Глобус, ДНС, Ситилинк, М.Видео, Эльдорадо, ВсеИнструменты, Лемана ПРО (Леруа Мерлен), ОБИ,
+  Регард, robiton.ru — через поисковую выдачу, август 2026.</footer>
+</section>
+</div>
