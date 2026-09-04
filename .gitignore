@@ -1,4 +1,3 @@
 __pycache__/
 *.pyc
-research/check.log
-research/pass2.log
+research/*.log
