@@ -5,9 +5,10 @@
   "http": 401,
   "final": "https://euroauto.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://spb.euroauto.ru/catalog/elementy-pitaniya-1069/ — ЕвроАвто; 394 SKU от 7 ₽ | регионы: spb.euroauto.ru, nursultan.euroauto.ru — поддомены городов",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "sar2000.ru",
@@ -25,9 +26,10 @@
   "http": 403,
   "final": "https://www.minimaks.ru/",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://www.minimaks.ru/catalog/elementy-pitaniya/ — ~500 SKU; Duracell, Energizer, TDM, VARTA, Космос, ФАZА",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "mirbatareek.ru",
@@ -45,9 +47,10 @@
   "http": 403,
   "final": "https://kuper.ru/",
   "title": "Купер",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://sbermarket.ru/categories/eliektronika/eliektropitaniie-i-osvieshchieniie/akkumuliatory — СберМаркет; GP Super, GP Rechargeable 2700, GP PB330, Duracell, Aro, Carrera, Космос",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "auchan.ru",
@@ -55,9 +58,10 @@
   "http": 401,
   "final": "https://auchan.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "vseinstrumenti.ru",
@@ -65,9 +69,10 @@
   "http": 403,
   "final": "https://vseinstrumenti.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "mts.ru",
@@ -75,9 +80,10 @@
   "http": 405,
   "final": "http://moskva.mts.ru/personal",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "automech.su",
@@ -95,9 +101,10 @@
   "http": 444,
   "final": "https://www.etm.ru/",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "autopteka.ru",
@@ -145,9 +152,10 @@
   "http": 498,
   "final": "https://www.wildberries.ru/",
   "title": "...",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "avatonshop.ru",
@@ -187,7 +195,8 @@
   "title": "Access Denied",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "galaktika36.ru",
@@ -215,9 +224,10 @@
   "http": 429,
   "final": "https://www.avito.ru/",
   "title": "Доступ ограничен: проблема с IP",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "xn----7sbenpmt2bhx.xn--p1ai",
@@ -275,9 +285,10 @@
   "http": 403,
   "final": "https://glavsnab.com",
   "title": "DDoS-Guard",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://glavsnab.com/catalog/elementy_pitaniya_1/ — Главснаб; GP, ЮПИТЕР, СТАРТ, КОСМОС",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "sklad-ufa.com",
@@ -317,7 +328,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "netlab.ru",
@@ -365,9 +377,10 @@
   "http": 403,
   "final": "https://zdravcity.ru",
   "title": "Error 403",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://zdravcity.ru/p_batarejki-alkalinovye-gp-ultraplus-lr6-aa-1-5v-n2-0090741.html — аптека; широкая линейка GP: Extra, Ultra Plus, CR2025, 23A, 27A, аккум. 270AAHC",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "gts114.ru",
@@ -377,7 +390,8 @@
   "title": "В доступе на страницу отказано",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "zbat.ru",
@@ -427,7 +441,8 @@
   "title": "403 Forbidden",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "himtver.ru",
@@ -455,9 +470,10 @@
   "http": 403,
   "final": "https://xn--80aabdpdvhj1dgp.xn--p1ai",
   "title": "Attention Required! | Cloudflare",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://xn--80aabdpdvhj1dgp.xn--p1ai/product-category/camelion/ — профильный магазин; Camelion, Maxell",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "batterika.ru",
@@ -535,9 +551,10 @@
   "http": 401,
   "final": "https://sportmaster.ru",
   "title": "Спортмастер",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "bi-bi.ru",
@@ -545,9 +562,10 @@
   "http": 403,
   "final": "https://bi-bi.ru",
   "title": "403 Forbidden",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://bi-bi.ru/catalog/tovary-dlya-doma/batarejki/duracell/ — БИ-БИ; Duracell, раздел товаров для дома",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "spb-element.ru",
@@ -575,9 +593,10 @@
   "http": 403,
   "final": "https://oma.by",
   "title": "Access denied",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://www.oma.by/batareyki-i-akkumulyatory-c — 224 SKU; Camelion, DURACELL, GP, Kodak, Varta, Toshiba",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "bolid.ru",
@@ -597,7 +616,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "stickhunt.ru",
@@ -655,9 +675,10 @@
   "http": 405,
   "final": "http://www.opti-com.ru/",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "opthz.ru",
@@ -737,7 +758,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "istochnik.ru",
@@ -775,9 +797,10 @@
   "http": 403,
   "final": "https://chipdip.ru",
   "title": "DDoS-Guard",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "komus.ru",
@@ -785,9 +808,10 @@
   "http": 503,
   "final": "https://www.komus.ru/",
   "title": "Комус",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "tdelekom.ru",
@@ -795,9 +819,10 @@
   "http": 405,
   "final": "http://www.tdelekom.ru/",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://www.tdelekom.ru/catalog/elementy-pitaniya/batareyki/ — Элеком; Duracell, GP G-Tech, IEK, Philips",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "citilink.ru",
@@ -805,9 +830,10 @@
   "http": 429,
   "final": "https://citilink.ru",
   "title": "Загрузка...",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "chas-crimea.ru",
@@ -875,9 +901,10 @@
   "http": 403,
   "final": "https://kuper.ru",
   "title": "Купер",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "tdrusoil.ru",
@@ -967,7 +994,8 @@
   "title": "403 Forbidden",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "opt174.com",
@@ -1015,9 +1043,10 @@
   "http": 403,
   "final": "https://lecar.ru",
   "title": "403",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://lecar.ru/product/catalog/8/151/LECAR000053106 — LECAR; алкалиновые АА 4 и 10 шт",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "digitalpapa.ru",
@@ -1035,9 +1064,10 @@
   "http": 401,
   "final": "https://lemanapro.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "planets.ru",
@@ -1137,7 +1167,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "linerirk.ru",
@@ -1177,7 +1208,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "dominodv.ru",
@@ -1305,9 +1337,10 @@
   "http": 503,
   "final": "https://www.eldorado.ru/",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "ab-batteries.ru",
@@ -1465,9 +1498,10 @@
   "http": 405,
   "final": "http://www.mctrade.ru/",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://www.mctrade.ru/catalog/entertainment/elementi_pitaniya_zaryadniki/batareyki/ — MCTrade, опт; 86 SKU в Екатеринбурге | регионы: chelyabinsk.mctrade.ru, omsk.mctrade.ru — поддомены городов",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "ural.toys",
@@ -1565,9 +1599,10 @@
   "http": 405,
   "final": "http://retailhoreca.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "elektro.ru",
@@ -1597,7 +1632,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "ret.ru",
@@ -1615,9 +1651,10 @@
   "http": 453,
   "final": "https://energia24.ru",
   "title": "Site is closed, wrong country",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://energia24.ru/tovary/150581250495105_02_elementy_pitaniya/ — Энергия, Красноярск; ЭРА, VARTA, Трофи, Космос",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "rubilnik.ru",
@@ -1637,7 +1674,8 @@
   "title": "403",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "energnew.ru",
@@ -1657,7 +1695,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "mirohoty.ru",
@@ -1667,7 +1706,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "voltacom.ru",
@@ -1675,9 +1715,10 @@
   "http": 405,
   "final": "http://voltacom.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://voltacom.ru/catalog/power/batt — Вольта; Panasonic, Duracell, Varta, Energizer",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "sadhoztorg.ru",
@@ -1697,7 +1738,8 @@
   "title": "Apteka.ru - С вашего IP замечена подозрительная активность",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "mgnl.ru",
@@ -1707,7 +1749,8 @@
   "title": "Нет соединения",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "myocard.ru",
@@ -1717,7 +1760,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "wixsite.com",
@@ -1727,7 +1771,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "www.",
@@ -1737,7 +1782,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "shkurenko.ru",
@@ -1747,7 +1793,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "vzebru.ru",
@@ -1757,7 +1804,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "sibopt.ru",
@@ -1765,9 +1813,10 @@
   "http": 405,
   "final": "http://sibopt.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://sibopt.ru/jelementy-pitanija-i-zarjadnye-ustrojstva.html — СибПроект; для слуховых аппаратов, часовые, литиевые",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "ars-elektra.ru",
@@ -1777,7 +1826,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "avtodt.ru",
@@ -1787,7 +1837,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "avtomarket.com",
@@ -1797,7 +1848,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "nevaparfum.ru",
@@ -1807,7 +1859,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "avtorus.ru",
@@ -1817,7 +1870,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "slata.com",
@@ -1827,7 +1881,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "xn--b1afkvehbddef.xn--p1ai",
@@ -1837,7 +1892,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "b54.ru",
@@ -1845,9 +1901,10 @@
   "http": 405,
   "final": "http://b54.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "http://b54.ru/goods/index.php?section=2&subSection=64&type=goods — СЭЛПИ, опт: GP, Energizer, Duracell, VARTA",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "sparural.ru",
@@ -1857,7 +1914,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "volgorost.ru",
@@ -1865,9 +1923,10 @@
   "http": 405,
   "final": "http://volgorost.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://volgorost.ru/catalog/ — ВолгоРост; батарейки в каталоге",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "ав-торг.рф",
@@ -1877,7 +1936,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "offprice.ru",
@@ -1887,7 +1947,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "батарейка-сеть.рф",
@@ -1897,7 +1958,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "vsesmart.ru",
@@ -1907,7 +1969,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "servico.ru",
@@ -1917,7 +1980,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "submeral.ru",
@@ -1927,7 +1991,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "suntehhoztorg.ru",
@@ -1937,7 +2002,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "radiomirnsk.ru",
@@ -1957,7 +2023,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "optim.ws",
@@ -1967,7 +2034,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "svetofor-market.ru",
@@ -1977,7 +2045,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "sima-land.ru",
@@ -1985,9 +2054,10 @@
   "http": 405,
   "final": "http://sima-land.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "sv-line.com",
@@ -1995,9 +2065,10 @@
   "http": 405,
   "final": "http://sv-line.com",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "http://www.sv-line.com/catalog/category_276912_item_390.html — раздел «Батарейки»",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "spb.ru",
@@ -2007,7 +2078,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "parfum-bhs.ru",
@@ -2017,7 +2089,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "globus.ru",
@@ -2025,9 +2098,10 @@
   "http": 405,
   "final": "http://globus.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "costa.style",
@@ -2037,7 +2111,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "tdagat.ru",
@@ -2047,7 +2122,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "krephaus.ru",
@@ -2057,7 +2133,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "irkmarket.ru",
@@ -2065,9 +2142,10 @@
   "http": 405,
   "final": "http://irkmarket.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://irkmarket.ru/ — батарейки и лампочки в каталоге",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "oilcity.ru",
@@ -2077,7 +2155,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "pivko24.ru",
@@ -2087,7 +2166,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "pk-tp.ru",
@@ -2097,7 +2177,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "larisa31.ru",
@@ -2107,7 +2188,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "tdagat-shop.ru",
@@ -2117,7 +2199,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "2b2batkomplekt.ru",
@@ -2127,7 +2210,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "torg123.ru",
@@ -2135,9 +2219,10 @@
   "http": 405,
   "final": "http://torg123.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://torg123.ru/catalog/elektrotovary/elementy_pitaniya_fonari/ — GP Super, GP PowerPlus, GP CR2025",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "dakomavt.ru",
@@ -2147,7 +2232,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "2x2.market",
@@ -2157,7 +2243,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "rainblade.pro",
@@ -2167,7 +2254,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "vektor-penza.ru",
@@ -2187,7 +2275,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "mega24.info",
@@ -2197,7 +2286,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "ru.com",
@@ -2207,7 +2297,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "ozon.ru",
@@ -2215,9 +2306,10 @@
   "http": 405,
   "final": "http://ozon.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "protek.ru",
@@ -2227,7 +2319,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "rubezh.ru",
@@ -2237,7 +2330,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "magnitmarket.ru",
@@ -2247,7 +2341,8 @@
   "title": "",
   "battery": "закрыт ботозащитой",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "u-energo.ru",
@@ -2255,9 +2350,10 @@
   "http": 405,
   "final": "http://u-energo.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://www.u-energo.ru/catalog/elementy-pitaniya/ — Уралэнерго; REXANT, Трофи, PROconnect",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "energomix.ru",
@@ -2265,9 +2361,10 @@
   "http": 405,
   "final": "http://energomix.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://energomix.ru/novinki/elementy-pitaniya-i-aksessuary-gopower-nadezhno-moshchno-nadolgo.html — GoPower, IEK",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "220-volt.ru",
@@ -2275,9 +2372,10 @@
   "http": 405,
   "final": "http://220-volt.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "mayak-market.ru",
@@ -2286,8 +2384,9 @@
   "final": "http://mayak-market.ru",
   "title": "",
   "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "evidence": "маркетплейс промтоваров, НЕ сеть дискаунтеров «Маяк»; батарейки в индексе не найдены — привязка ошибочна",
+  "method": "",
+  "feed": ""
  },
  {
   "domain": "xn--24-6kctpkbbf6e0f.xn--p1ai",
@@ -2325,9 +2424,10 @@
   "http": 405,
   "final": "http://energosfera.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://www.energosfera.ru/catalog/ — Энергосфера; раздел элементов питания и ЗУ",
+  "method": "поисковый индекс",
+  "feed": ""
  },
  {
   "domain": "istok-audio.com",
@@ -2355,9 +2455,10 @@
   "http": 405,
   "final": "http://metro-cc.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "категория подтверждена прямой ссылкой в предыдущих проходах",
+  "method": "проверено ранее по ссылке",
+  "feed": ""
  },
  {
   "domain": "vliga.com",
