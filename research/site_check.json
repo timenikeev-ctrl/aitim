@@ -1,0 +1,4362 @@
+[
+ {
+  "domain": "technopark.ru",
+  "alive": false,
+  "http": 401,
+  "final": "https://technopark.ru",
+  "title": "",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "teko.biz",
+  "alive": true,
+  "http": 200,
+  "final": "https://teko.biz",
+  "title": "Системы безопасности «Астра», беспроводная охранная сигнализация, извещатели",
+  "battery": "да",
+  "evidence": "на главной: «Источники питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "pfpk.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://pfpk.ru",
+  "title": "ПрофУпаковка — надежный поставщик товаров для бизнеса!",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "konturfoto.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://konturfoto.ru",
+  "title": "Интернет-магазин Контур-Фото – продажа фотоаппаратов, вспышек, объективов, фоторамок, фотоальбомов, канцтоваров, хозтова",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "cellfaktor.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://cellfaktor.ru",
+  "title": "CellFaktor - интернет магазин батареек и аккумуляторов",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "petrovich.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://petrovich.ru",
+  "title": "Строительные материалы в СТД Петрович — купить стройматериалы в интернет-магазине Петрович с доставкой в Санкт-Петербург",
+  "battery": "да",
+  "evidence": "на главной: «батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "tdvoronezh.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://tdvoronezh.ru",
+  "title": "ТД Воронеж - Товары для дома, офиса и работы.",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "chipdip.ru",
+  "alive": false,
+  "http": 403,
+  "final": "https://chipdip.ru",
+  "title": "DDoS-Guard",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "chas-crimea.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://chas-crimea.ru/index.php?route=common/home",
+  "title": "Интернет-магазин «ЧАС»",
+  "battery": "да",
+  "evidence": "на главной: «батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "citilink.ru",
+  "alive": false,
+  "http": 429,
+  "final": "https://citilink.ru",
+  "title": "Загрузка...",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tesla39.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://tesla39.ru",
+  "title": "Тесла39",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "colorlon-vtd.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://colorlon-vtd.ru",
+  "title": "Колорлон ВТД, Новосибирск, Богдана Хмельницкого 100 - все для ремонта, дома и дачи",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "kuper.ru",
+  "alive": false,
+  "http": 403,
+  "final": "https://kuper.ru",
+  "title": "Купер",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "krdelectro.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://krdelectro.ru",
+  "title": "Купить электротовары в КраснодарЭлектро",
+  "battery": "да",
+  "evidence": "на главной: «элемент питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "planets.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://planets.ru",
+  "title": "Компания поставки продуктов питания оптом | Томск",
+  "battery": "да",
+  "evidence": "на главной: «элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "kristall43.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://kristall43.ru",
+  "title": "«Кристалл-Электро» — сеть магазинов электротоваров в Кирове",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "texasrt.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://texasrt.ru",
+  "title": "ТЕХАС &#8212; Магазин табака и курительных принадлежностей, Вейп-шоп, Магазин чая",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "colorlon.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://colorlon.ru",
+  "title": "Интернет-магазин Колорлон — товары для дома и ремонта в Новосибирске",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "lal-auto.ru",
+  "alive": false,
+  "http": 403,
+  "final": "https://lal-auto.ru",
+  "title": "403 Forbidden",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "pochta.ru",
+  "alive": false,
+  "http": 417,
+  "final": "https://pochta.ru",
+  "title": "Почта России",
+  "battery": "ошибка HTTP 417",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "lecar.ru",
+  "alive": false,
+  "http": 403,
+  "final": "https://lecar.ru",
+  "title": "403",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "compel.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.compel.ru/",
+  "title": "Компэл",
+  "battery": "да",
+  "evidence": "на главной: «батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "lemanapro.ru",
+  "alive": false,
+  "http": 401,
+  "final": "https://lemanapro.ru",
+  "title": "",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tinko.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.tinko.ru/",
+  "title": "Торговый Дом ТИНКО – поставка технических средств безопасности",
+  "battery": "да",
+  "evidence": "на главной: «Источники питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "tomsk.ru",
+  "alive": false,
+  "http": 405,
+  "final": "http://www.tomsk.ru/",
+  "title": "",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "proftorg.com",
+  "alive": true,
+  "http": 200,
+  "final": "https://proftorg.com",
+  "title": "Купить автомасла и ГСМ оптом B2B, B2C, автомасла оптом Мытищи, автохимия и технические жидкости оптом — доставка по Моск",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "digitalpapa.ru",
+  "alive": false,
+  "http": 404,
+  "final": "https://digitalpapa.ru",
+  "title": "404 Not Found",
+  "battery": "ошибка HTTP 404",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "trianon-nsk.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://trianon-nsk.ru",
+  "title": "Торговый дом ТД ТРИАНОН - бытовая химия хозтовары товары для дома посуда игрушки косметика текстиль интернет-магазин по ",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "qilix.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://qilix.ru",
+  "title": "Батарейки оптом купить по низким ценам в интернет-магазине Киликс",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "dns-shop.ru",
+  "alive": false,
+  "http": 401,
+  "final": "https://dns-shop.ru",
+  "title": "",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "radiomir96.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://radiomir96.ru",
+  "title": "Интернет-магазин радиотоваров в Екатеринбурге | Радиомир - radiomir96.ru",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "linerirk.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://linerirk.ru",
+  "title": "Линер - канцелярские товары в Иркутске",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "dominodv.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://dominodv.ru",
+  "title": "Канцелярские товары DOMINO",
+  "battery": "да",
+  "evidence": "на главной: «батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "udvolga.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://udvolga.ru",
+  "title": "Трио",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "ecorss.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://ecorss.ru",
+  "title": "Экоресурс",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "magazplus31.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://magazplus31.ru",
+  "title": "Магаз Плюс Магазин элементов питания и аксессуаров",
+  "battery": "да",
+  "evidence": "на главной: «элементов питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "unit2000.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://unit2000.ru",
+  "title": "Юнит",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "magazin-elektronika.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://magazin-elektronika.ru",
+  "title": "«Магазин Электроника» - интернет-магазин электронных компонентов и оборудования | «Магазин Электроника»",
+  "battery": "да",
+  "evidence": "на главной: «батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "toledo24.pro",
+  "alive": true,
+  "http": 200,
+  "final": "https://toledo-market.ru/",
+  "title": "Толедо - интернет-магазин электротехнической продукции",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "radiomirnsk.ru",
+  "alive": false,
+  "http": 503,
+  "final": "https://radiomirnsk.ru/",
+  "title": "",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "rbt.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.rbt.ru/",
+  "title": "RBT - интернет магазин недорогой бытовой техники и электроники!",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "tsp-kapriz.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://tsp-kapriz.ru",
+  "title": "Каприз, косметика, бытовая химия, товары для дома и сада, оснащение салонов красоты.",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "regard.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.regard.ru/",
+  "title": "Регард - интернет магазин компьютеров и комплектующих, техники для офиса и электроники. Сборка ПК. Доставка по России",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "ural.toys",
+  "alive": true,
+  "http": 200,
+  "final": "https://ural.toys",
+  "title": "Детские игрушки оптом, купить игрушки для детей по оптовым ценам от производителя в Екатеринбурге и других городах Росси",
+  "battery": "да",
+  "evidence": "на главной: «батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "el-on.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://el-on.ru",
+  "title": "EL-ON: Производство | Инжиниринг | Опт",
+  "battery": "да",
+  "evidence": "на главной: «Источники питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "magnit.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://magnit.ru",
+  "title": "Доставка продуктов на дом – купить готовую еду и продукты в Магнит",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "ekonomstroy.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.ekonomstroy.ru/",
+  "title": "Интернет-магазин стройматериалов, заказать и купить строительные материалы в Москве, Люберцах, Коломне, Раменском, Истре",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "el-trade.su",
+  "alive": true,
+  "http": 200,
+  "final": "https://el-trade.su",
+  "title": "Добро пожаловать",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "marafett.ru",
+  "alive": false,
+  "http": 404,
+  "final": "https://marafett.ru",
+  "title": "Domain has been assigned",
+  "battery": "ошибка HTTP 404",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "rielta.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://rielta.ru",
+  "title": "Производство охранных систем: извещатели, системы управления освещением, оптические фильтры - Риэлта",
+  "battery": "да",
+  "evidence": "на главной: «источники питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "eldvor.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://eldvor.ru",
+  "title": "Интернет-магазин «Электронный двор»",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "eldorado.ru",
+  "alive": false,
+  "http": 503,
+  "final": "https://www.eldorado.ru/",
+  "title": "",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "ret.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.ret.ru/",
+  "title": "Воронеж Ноутбуки компьютеры телевизоры телефоны смартфоны iPhone купить цены интернет магазин",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "electrica-penza.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://electrica-penza.ru",
+  "title": "Магазин электрики и электротоваров в Пензе",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "victoria-group.ru",
+  "alive": false,
+  "http": 403,
+  "final": "https://victoria-group.ru",
+  "title": "",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "maxima-pnz.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://maxima-pnz.ru",
+  "title": "Электротовары и электрика в Пензе – интернет-магазин Максима",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "maxidom.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.maxidom.ru/",
+  "title": "Максидом - интернет-магазин товаров для дома",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "a-trast.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://a-trast.ru",
+  "title": "Авто-траст г.Берёзовский",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "electro-master.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.electro-master.ru/",
+  "title": "Электромастер: интернет-магазин электрики и сантехники",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "mctrade.ru",
+  "alive": false,
+  "http": 405,
+  "final": "http://www.mctrade.ru/",
+  "title": "",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "rubilnik.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://rubilnik.ru",
+  "title": "ЭлектроМИР",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "ab-batteries.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://ab-batteries.ru",
+  "title": "AB-Batteries - официальный сайт поставщика элементов питания и мелкой электроники",
+  "battery": "да",
+  "evidence": "на главной: «элементов питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "rusholts.ru",
+  "alive": false,
+  "http": 405,
+  "final": "http://retailhoreca.ru",
+  "title": "",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "agoracompany.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://agoracompany.ru",
+  "title": "ООО Компания Агора - дистрибьюция товаров повседневного спроса",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "elektronika126.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://elektronika126.ru",
+  "title": "Магазин радиоэлектротоваров",
+  "battery": "да",
+  "evidence": "на главной: «Источники питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "elex.ru",
+  "alive": false,
+  "http": 404,
+  "final": "https://elex.ru",
+  "title": "Domain has been assigned",
+  "battery": "ошибка HTTP 404",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "megapack-russia.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://megapack-russia.ru",
+  "title": "Мегапак",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "sadhoztorg.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://sadhoztorg.ru",
+  "title": "СадХозТорг - товары для сада, дома и ремонта",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "akicompany.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://akicompany.ru",
+  "title": "Акватория Дома интернет-магазин",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "vektor-penza.ru",
+  "alive": false,
+  "http": 502,
+  "final": "https://vektor-penza.ru",
+  "title": "Error 502",
+  "battery": "ошибка HTTP 502",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "elektro.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.elektro.ru/",
+  "title": "Планета Электрика - электросайт в Сибири",
+  "battery": "да",
+  "evidence": "на главной: «Источники питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "elkomp.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://elkomp.ru",
+  "title": "Интернет-магазин &laquo;Мир Электроники&raquo; – Уфа",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "volgorost.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://volgorost.ru",
+  "title": "Товары для дома Волгоград | ВолгоРост",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "sar2000.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://sar2000.ru",
+  "title": "SAR - техника и электроника оптом",
+  "battery": "да",
+  "evidence": "на главной: «батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "eltsnab.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://eltsnab.ru",
+  "title": "Интернет-магазин «Электротехснаб» — купить электротехническую и светотехническую продукцию из наличия на складе по досту",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "vseinstrumenti.ru",
+  "alive": false,
+  "http": 403,
+  "final": "https://vseinstrumenti.ru",
+  "title": "",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "elteam.pro",
+  "alive": true,
+  "http": 200,
+  "final": "https://elteam.pro",
+  "title": "ELTEAM.PRO",
+  "battery": "да",
+  "evidence": "на главной: «ЭЛЕМЕНТЫ ПИТАНИЯ»",
+  "method": "главная"
+ },
+ {
+  "domain": "sbermarket.ru",
+  "alive": false,
+  "http": 403,
+  "final": "https://kuper.ru/",
+  "title": "Купер",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "energia24.ru",
+  "alive": false,
+  "http": 453,
+  "final": "https://energia24.ru",
+  "title": "Site is closed, wrong country",
+  "battery": "ошибка HTTP 453",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "energnew.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://energnew.ru",
+  "title": "Новая Энергия",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "mgnl.ru",
+  "alive": false,
+  "http": 403,
+  "final": "https://shop.mgnl.ru/",
+  "title": "Нет соединения",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "almega.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.almega.ru/",
+  "title": "Автотовары и автоаксессуары оптом с доставкой по России",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "minimaks.ru",
+  "alive": false,
+  "http": 403,
+  "final": "https://www.minimaks.ru/",
+  "title": "",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "almin.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.almin.ru/",
+  "title": "Almin.ru - Товары для Вас и вашего бизнеса",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "metro-cc.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://metro-cc.ru/",
+  "title": "METRO | Для бизнеса и покупателей",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "alpha-energy.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://alpha-energy.ru/ru/",
+  "title": "ООО \"Фирма Альфа-плюс\". Альфа-плюс – Энергия на любой вкус.",
+  "battery": "да",
+  "evidence": "на главной: «батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "mirbatareek.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://mirbatareek.ru",
+  "title": "Купить батарейки и аккумуляторы оптом и в розницу по низким ценам | Поставщик элементов питания Мир батареек в России",
+  "battery": "да",
+  "evidence": "на главной: «батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "amrmarket.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://amrmarket.ru",
+  "title": "AMRmarket",
+  "battery": "да",
+  "evidence": "на главной: «Элементы питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "apelsin.ru",
+  "alive": false,
+  "http": 403,
+  "final": "https://apelsin.ru",
+  "title": "403",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "wildberries.ru",
+  "alive": false,
+  "http": 498,
+  "final": "https://www.wildberries.ru/",
+  "title": "...",
+  "battery": "ошибка HTTP 498",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "euroauto.ru",
+  "alive": false,
+  "http": 401,
+  "final": "https://euroauto.ru",
+  "title": "",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "etm.ru",
+  "alive": false,
+  "http": 444,
+  "final": "https://www.etm.ru/",
+  "title": "",
+  "battery": "ошибка HTTP 444",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "shop-aventa.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://shop-aventa.ru",
+  "title": "Интернет-магазин \"Авента\"",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "xn----7sbenpmt2bhx.xn--p1ai",
+  "alive": true,
+  "http": 200,
+  "final": "https://xn----7sbenpmt2bhx.xn--p1ai",
+  "title": "Интернет магазин бытовой техники и электроники Донецк",
+  "battery": "да",
+  "evidence": "на главной: «Батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "mts.ru",
+  "alive": false,
+  "http": 405,
+  "final": "http://moskva.mts.ru/personal",
+  "title": "",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "xcom-shop.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.xcom-shop.ru/",
+  "title": "Интернет-магазин XCOM-SHOP",
+  "battery": "да",
+  "evidence": "на главной: «источники питания»",
+  "method": "главная"
+ },
+ {
+  "domain": "apteka.ru",
+  "alive": false,
+  "http": 432,
+  "final": "https://err.apteka.ru/432?ip=160.79.106.131&rqid=0HNO7VU2O0MUF%3A00000006&from=https%3A%2F%2Fapteka.ru%2F&id=DQAAAAABCBYCCBkBAAAdAAU%3D",
+  "title": "Apteka.ru - С вашего IP замечена подозрительная активность",
+  "battery": "закрыт ботозащитой",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "showay.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://showay.ru",
+  "title": "ShoWay интернет-магазин техники и аксессуаров, Оборудование и освещение для шоу",
+  "battery": "да",
+  "evidence": "на главной: «батарейк»",
+  "method": "главная"
+ },
+ {
+  "domain": "krephaus.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "pk-tp.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "costa.style",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "larisa31.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "torg123.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "dakomavt.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "rainblade.pro",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "podrygka.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "protek.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "2b2batkomplekt.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "2x2.market",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "u-energo.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "ru.com",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "mega24.info",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "magnitmarket.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "voltacom.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "mayak-market.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "220-volt.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "vzebru.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "wixsite.com",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "mirohoty.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "www.",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "vsesmart.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "eyabloko.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "shkurenko.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "servico.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "energosfera.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "myocard.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "set-k.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "sibopt.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "ars-elektra.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "xn--b1afkvehbddef.xn--p1ai",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "astmarket.com",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "fortuna-ag.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "narod.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "sila.by",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "xn--g1abgneqs.xn--p1ai",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "asvagroup.com",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "fortuna99.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "narodny38.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "sima-land.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "assortyidey.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "yandex.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "auchan.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "forwardauto.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "navitel.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "sk-trade.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "yurinat.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "autofon.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "foto-sivma.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "neftm.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "sklad-ufa.com",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "zbat.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "automech.su",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "foto4u.su",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "neptunsale.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "slata.com",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "zdravcity.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "autopteka.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "freekon.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "netizbattery.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "slata.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "zenitco.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "av.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "galaktika36.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "netlab.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "sm-komandor.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "zet-impex.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "avatonshop.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "galamart.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "nevaparfum.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "smart-shop.pro",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "zetter.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "aventa-electro.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "gamma-center.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "newmir.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "smoker.su",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "ав-торг.рф",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "avgust-opt.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "garwin.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "nix.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "souzmultpark.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "батарейка-сеть.рф",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "avito.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "giftspromo.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "nokturn.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "sparural.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "всебатарейки.рф",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "avoska.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "gipermarketdom.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "novex.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "spb-element.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "добрострой.рф",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "avselectro.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "gkm25.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "obi.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "spb.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "зарулем-шоп.рф",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "glavsnab.com",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "ocs.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "avtodt.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "spektr-med.com",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "магазин-рубль.рф",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "avtomarket.com",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "globus-online.kg",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "officemag.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "sphinx-md.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "мояоптима.рф",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "avtopasker.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "globus.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "offprice.eu",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "sportmaster.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "русский-разгуляйка.рф",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "avtorus.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "goldapple.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "offprice.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "sputnik64.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "сибирьдистрибуция.рф",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "azmak.kz",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "gts114.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "oilcity.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "stickhunt.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "союзупак.рф",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "azuma.store",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "gulfstream.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "okeydostavka.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "stvic.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "эколайн36.рф",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "b54.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "himtver.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "oma.by",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "submeral.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "эльсити.рф",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "baltkam.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "hoz-rb.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "omikom.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "sunnet-omsk.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "ярче.рф",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "batalux.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "hozmarket.store",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "onlinetrade.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "suntehhoztorg.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "batareiki-optom.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "hozsfera.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "opt-sklad34.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "sv-line.com",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "batkomplekt.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "hozsfera24.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "opt174.com",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "svetofor-market.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "batterika.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "huntworld.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "opthz.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "swnn.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "battery-opt.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "ib-dandy.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "opti-com.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "system-r.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "batterymag.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "igla.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "optim.ws",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tdagat-shop.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "baucenter.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "impuls-sveta.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "optomhim.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tdagat.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "begemag.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "informat.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "oreht.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tdelekom.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "bi-bi.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "interraparfum.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "ormis.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tdemir.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "bolid.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "irkmarket.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "ozon.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tdglobus.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "brozex.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "istochnik.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "palmira45.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tdmega.com",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "bteam.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "istok-audio.com",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "parfum-bhs.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tdorion.com",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "burshtat.com",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "kemp1.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "parfum-lider.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tdrusoil.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "byterg.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "kirmarket.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "pasker.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tdshkurenko.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "c-e.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "komus.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "perekrestok.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tdshkurenko24.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "cardiomed.su",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "konkord-s.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "perfeo.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tdshkurenko54.ru",
+  "alive": false,
+  "http": "PoolTimeout",
+  "final": "",
+  "title": "",
+  "battery": "сайт не отвечает",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "catran.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://catran.ru",
+  "title": "Главная",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "catalogz.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://catalogz.ru",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "konnekt58.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://konnekt58.ru",
+  "title": "konnekt58.ru",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "kopilkago.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://kopilkago.ru",
+  "title": "«Командор», «Аллея», «Хороший»: доставка и самовывоз | Единая программа лояльности Копилка — работает везде",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "pg.pro",
+  "alive": true,
+  "http": 200,
+  "final": "https://pg.pro",
+  "title": "Partners Group",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "pivko24.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://pivko24.ru",
+  "title": "Пив&amp;Ко 🍻 - федеральная сеть магазинов разливного и бутылочного пива в России и Казахстане",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "termopuls.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://termopuls.ru",
+  "title": "Главная",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "krasyar.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.krasyar.ru/",
+  "title": "Официальный сайт ГК «Красный Яр»",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "texkom.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://texkom.ru",
+  "title": "Автозапчасти для легковых и грузовых автомобилей - Техком",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tgabsolut-shop.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://tgabsolut-shop.ru",
+  "title": "Интернет-магазин Абсолют",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "plenki.net",
+  "alive": true,
+  "http": 200,
+  "final": "https://plenki.net",
+  "title": "Фотоуслуги в Москве - фотоцентры Plenki.Net",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "pharmeconom.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.pharmeconom.ru/",
+  "title": "Аптека ФАРМЭКОНОМ — поиск и заказ лекарств по выгодным ценам",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "lamel.shop",
+  "alive": true,
+  "http": 200,
+  "final": "https://lamel.shop",
+  "title": "Косметика и уходовые средства",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "poiskhome.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://poiskhome.ru",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tkvprok.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://tkvprok.ru",
+  "title": "ВПРОК",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "poryadok.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://poryadok.ru",
+  "title": "Порядок Москва: сеть супермаркетов и интернет-магазин товаров для дома и дачи, туризма и отдыха, инструмента, детских то",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "poroshki100.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://poroshki100.ru",
+  "title": "Бытовая химия в Астрахани оптом",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "csat.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.csat.ru/",
+  "title": "Цезарь Сателлит – системы охраны и сигнализации для недвижимости и автомобилей | Цезарь Сателлит в Москве",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tochka-online.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://pozayavke.ru",
+  "title": "B2B маркетплейс По заявке - товары оптом от производителей. Актуальные цены, прямые поставки, наличие товаров и удобные ",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "lenta.com",
+  "alive": true,
+  "http": 200,
+  "final": "https://lenta.com",
+  "title": "Доставка продуктов на дом – заказать из магазина Лента. 🌻 Москва, Санкт-Петербург и города России",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "delta.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.delta.ru/",
+  "title": "Услуги охраны в Москве, установка охранных систем для дома, бизнеса и автомобилей | Охранное предприятие DELTA",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "di-house.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://di-house.ru",
+  "title": "diHouse – дистрибьютор электроники и&nbsp;бытовой техники в&nbsp;РФ",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "leonardo.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://leonardo.ru",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "prostor-market.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://prostor-market.ru",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tovarbezpereplat.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://tovarbezpereplat.ru",
+  "title": "Товар без переплат",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "progress-etk.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://progress-etk.ru",
+  "title": "SENYUMTOTO &#8212; Pusat Togel Online Resmi dengan Data Result Akurat 2026",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "detmir.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.detmir.ru/",
+  "title": "Детский мир | Интернет-магазин детских товаров",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "dixy.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://dixy.ru",
+  "title": "Не удалось загрузить сайт",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "leomax.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.leomax.ru/",
+  "title": "Телемагазин LEOMAX — скидки до 90%",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "leonardohobby.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://leonardo.ru/",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tranzit-oil.com",
+  "alive": true,
+  "http": 200,
+  "final": "https://tranzit-oil.com",
+  "title": "«Транзит-Ойл» — оптовая продажа, логистика и дистрибуция автотоваров",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "dobrotsen.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://dobrotsen.ru",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "letto.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.letto.ru/",
+  "title": "LETTO | официальный интернет-магазин сети садовых центров",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "ts-7dney.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://ts-7dney.ru",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "dme-dutyfree.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://skydutyfree.ru/",
+  "title": "Sky Duty Free - дьюти фри магазин алкоголя, парфюмерии, косметики в Москве, Екатеринбурге, Самаре, Нижнем Новгороде",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tricolor.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.tricolor.ru/",
+  "title": "Официальный сайт «Триколор» — оператора цифровой среды",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "letu.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.letu.ru/",
+  "title": "L&#x27;Etoile",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "donako.org",
+  "alive": true,
+  "http": 200,
+  "final": "https://donako.org",
+  "title": "ДОНАКО — сеть АЗС в Воронеже",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "tvoydom.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://tvoydom.ru",
+  "title": "Твой Дом: гипермаркет товаров для дома, дачи и ремонта",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "r-ulybka.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.r-ulybka.ru/",
+  "title": "&quot;Улыбка радуги&quot; - сеть магазинов косметики и товаров для дома",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "lifemart.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://lifemart.ru/ru/ekb",
+  "title": "Круглосуточная доставка хорошей еды Жизньмарт за 20 минут в городе Екатеринбург",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "logistica-vector.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://logistica-vector.ru",
+  "title": "Дистрибьюторско-логистическая компания ВЕКТОР-ГРУПП Логистика, Калуга",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "drujba-tc.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://drujba-tc.ru",
+  "title": "Официальный сайт торговой компании &quot;Дружба&quot;, г. Рыбинск",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "ratio-group.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://ratio-group.ru",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "lux31.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://lux31.ru",
+  "title": "ЛЮКС Белгород | Магазин правильных продуктов и напитков к праздничному столу| Официальный сайт",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "raznotorg.com",
+  "alive": true,
+  "http": 200,
+  "final": "https://raznotorg.com",
+  "title": "Domain is Registered",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "lutner.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://lutner.ru/en/",
+  "title": "Lutner - Distributions of musical instruments and accessories worldwide.",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "uk59.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://uk59.ru",
+  "title": "ООО &quot;УРАЛКОМПЛЕКТ&quot;",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "e-nokturn.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://e-nokturn.ru",
+  "title": "Ноктюрн",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "umaigroup.kg",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.umaigroup.kg/",
+  "title": "Главная - Umai Group",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "dors.com",
+  "alive": true,
+  "http": 200,
+  "final": "https://dors.hk/",
+  "title": "Home - Dors",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "efkann.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://efkann.ru",
+  "title": "Спецодежда, спецобувь, средства индивидуальной защиты - ЕфКа Спецодежда",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "relef.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://relef.ru",
+  "title": "Рельеф",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "relefopt.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://relefopt.ru",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "magistral-nn.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.magistral-nn.ru/",
+  "title": "Оптовый интернет-портал Магистраль-НН: автозапчасти для ВАЗ, ГАЗ, ПАЗ, УАЗ и иномарок, масла, автохимия и технические жи",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "usta.group",
+  "alive": true,
+  "http": 200,
+  "final": "https://usta.group",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "v-avto.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://v-avto.ru",
+  "title": "Восход | Авто — официальный оптовый интернет-магазин",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "retailhoreca.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://retailhoreca.ru",
+  "title": "Дистрибьютор автоматических кофемашин Dr.Coffee, WMF, Schaerer и сотен других известных брендов | РусХОЛТС, официальный ",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "magnum.kz",
+  "alive": true,
+  "http": 200,
+  "final": "https://magnum.kz",
+  "title": "magnum",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "elasgo.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://elasgo.ru",
+  "title": "ЭЛАСГО - дистрибьютор FMCG в Москве: поставки оптом для магазинов",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "revo-udc.com",
+  "alive": true,
+  "http": 200,
+  "final": "https://revo-udc.com",
+  "title": "Unified Distribution Center - UDC Revo Charge",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "verno-info.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://verno-info.ru",
+  "title": "Сеть универсамов Верный",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "maria-ra.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.maria-ra.ru/",
+  "title": "Мария-Ра. Официальный сайт торговой сети",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "2gis.uz",
+  "alive": true,
+  "http": 200,
+  "final": "https://2gis.uz/museum?return_url=https%3A%2F%2F2gis.uz%2F",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "vertical.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://vertical.ru",
+  "title": "Вертикаль",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "vashdom24.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://vashdom24.ru",
+  "title": "Ваш Дом сеть строительных магазинов. Более 30 000 товаров для строительства и ремонта купить в интернет-магазине Ваш Дом",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "5ka.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://5ka.ru",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "1-2.su",
+  "alive": true,
+  "http": 200,
+  "final": "https://1-2.su/site/login",
+  "title": "SBAT - Login Site",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "7mya.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://7mya.ru",
+  "title": "7mya.ru",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "rs24.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://rs24.ru",
+  "title": "Магазин электротехники RS24.ru - купить электротехническое оборудование онлайн, поставки электрооборудования оптом",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "maxi-retail.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://maxi-retail.ru/vologda?select-city=true",
+  "title": "Сеть магазинов Макси - доставка продуктов на дом в Вологде, заказать продукты онлайн в интернет-магазине",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "rpk.group",
+  "alive": true,
+  "http": 200,
+  "final": "https://rpk.group/ru/",
+  "title": "Русская переводческая компания - Главная",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "vikontpro.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://vikontpro.ru",
+  "title": "Оптовый поставщик , купить товары оптом по низким ценам — Виконт",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "rubezh.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://rubezh.ru",
+  "title": "Компания RUBEZH",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "vinograd.shop",
+  "alive": true,
+  "http": 200,
+  "final": "https://vinograd.shop",
+  "title": "Интернет-магазин напитков Виноград в Иркутске",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "electro-mpo.ru",
+  "alive": true,
+  "http": 204,
+  "final": "https://www.electro-mpo.ru/",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "electro58.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://electro58.ru",
+  "title": "База электроматериалов 50 Герц - электротехнические изделия с доставкой по России",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "vintboltovich.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://vintboltovich.ru",
+  "title": "Винт Болтович",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "agora-market.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://agora-market.ru",
+  "title": "Интернет-магазин Agora-Market закрыт.",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "vk.com",
+  "alive": true,
+  "http": 200,
+  "final": "https://vk.com",
+  "title": "ВКонтакте | Добро пожаловать",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "vkusvill.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://vkusvill.ru",
+  "title": "ВкусВилл — интернет-магазин продуктов для здорового питания с доставкой на дом | Москва и вся Россия",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "rustel.kg",
+  "alive": true,
+  "http": 200,
+  "final": "https://rustel.kg",
+  "title": "&quot;Rustel&quot; | Компания Рустэль одна из ведущих дистрибьюторских компаний в Кыргызстане с офисами в Бишкеке, Оше и",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "megamarket.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://megamarket.ru",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "electromontage.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://electromontage.ru",
+  "title": "Проектирование и монтаж систем электроснабжения и освещения под ключ в Москве и МО с гарантией - Home",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "s-globus.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://s-globus.ru",
+  "title": "Система «Глобус»",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "aka-scan.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://aka-scan.ru",
+  "title": "АКА-Скан | Приборы неразрушающего контроля | Толщиномеры покрытий, дефектоскопы, магнитометры, ферритометры, трещиномеры",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "vliga.com",
+  "alive": true,
+  "http": 200,
+  "final": "https://vliga.com",
+  "title": "Онлайн супермаркет: заказ и доставка продуктов",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "elimkanz.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://elimkanz.ru",
+  "title": "ЭлимКанц",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "merlion.com",
+  "alive": true,
+  "http": 200,
+  "final": "https://merlion.com",
+  "title": "MERLION",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "samokat.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://samokat.ru",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "abisys.pro",
+  "alive": true,
+  "http": 200,
+  "final": "https://abisys.pro",
+  "title": "Abisys — ИТ-инфраструктура бизнеса под контролем",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "aliance.org",
+  "alive": true,
+  "http": 200,
+  "final": "https://aliance.org",
+  "title": "Компания \"Альянс\" - Дистрибутор бытовой химиии, парфюмерии и косметики, логистический оператор в Уральском регионе с 199",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "met-72.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://met-72.ru",
+  "title": "Мастер электрик | Интернет магазин электрики в Тюмени",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "aliexpress.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://aliexpress.ru",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "vprok.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://vprok.ru",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "alligator-vrn.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://alligator-vrn.ru",
+  "title": "Интернет-магазин Аллигатор",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "samsonopt.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.samsonopt.ru/",
+  "title": "Самсон-опт - оптовые поставки офисных товаров для школы и дома, купить канцтовары от поставщика и производителя. Недорог",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "metropolis-online.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://metropolis-online.ru",
+  "title": "Метрополис | Низкие цены всегда рядом",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "vrnbatt.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.reg.ru/domain/shop/lot/vrnbatt.ru",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "em-orbita.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://em-orbita.ru",
+  "title": "Орбита — Интернет-магазин",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "sct.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://sct.ru",
+  "title": "Компания «Спектр» - товары для дома и дачи оптом со складов в Москве и Воронеже",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "miratorg.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://miratorg.ru",
+  "title": "Мы одна страна",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "vtk-vrn.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://vtk-vrn.ru",
+  "title": "Сеть автозаправочных станций и комплексов автозаправок в Воронеже - АЗС | ВТК",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "securon.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://securon.ru",
+  "title": "Охранные системы - Официальный сайт компании SECURON",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "scent.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.scent.ru/",
+  "title": "SCENT – интернет-магазин парфюмерии и косметики в Москве",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "megafon.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://moscow.megafon.ru/",
+  "title": "Официальный сайт МегаФона, Московский регион | Ведущий мобильный оператор России",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "mirdiodov.info",
+  "alive": true,
+  "http": 200,
+  "final": "https://mirdiodov.info",
+  "title": "Купить светодиодное LED освещение в Воронеже — Мир Диодов",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "amwine.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://amwine.ru",
+  "title": "&laquo;Ароматный Мир&raquo; - официальный интернет-сайт сети винмаркетов в Москве и других городах России",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "energomix.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://energomix.ru",
+  "title": "Группа компаний ЭНЕРГОМИКС - официальный сайт",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "eroticfantasy.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://eroticfantasy.ru",
+  "title": "Интернет-магазин товаров для взрослых Erotic-Fantasy",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "sdvor.com",
+  "alive": true,
+  "http": 200,
+  "final": "https://sdvor.com/tmgrdfrend/showcaptchafast?d=5FCE0381F5143811A0C828106C28BD8041E72DC9880CECF212482CDBA6A2FA9BACC7B2610D5FB7144A57DC8F3350CC5DF39688A2A7&retpath=aHR0cHM6Ly9zZHZvci5jb20v_c1a4bebd104a0744d3ae4e435a15bc31&s=5d79e002caa9c27b0ddc226ad2a87c61",
+  "title": "Верификация",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "apline35.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://apline35.ru",
+  "title": "АПлайн Вологда – купить товары для строительства, ремонта и обустройства дома по низким ценам",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "mkc58.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://mkc58.ru",
+  "title": "��� ��� - ������ ��� � ����� (����������� �������, ����������� ����, ��� ������������, ���������) &mdash; �������",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "winelab.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.winelab.ru/",
+  "title": "Интернет магазин алкоголя, купить алкоголь в супермаркете напитков &amp;#127863;",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "mr-pak.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://mr-pak.ru",
+  "title": "Мистер Пак, Одноразовая посуда, упаковка, канцтовары, хозтовары, бытовая химия.",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "apollo-lux.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://apollo-lux.ru",
+  "title": "Главная страница сайта",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "serviko.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.serviko.ru/",
+  "title": "СЕРВИКО-официальный сайт | Логистические и дистрибьюторские услуги в Сибири",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "shamsa.net",
+  "alive": true,
+  "http": 200,
+  "final": "https://shamsa.net",
+  "title": "Шамса",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "evrolist.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://evrolist.ru",
+  "title": "Главная",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "aptekus.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://aptekus.ru",
+  "title": "Аптека Низких Цен в Твери - официальный сайт",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "xn--24-6kctpkbbf6e0f.xn--p1ai",
+  "alive": true,
+  "http": 200,
+  "final": "https://xn--24-6kctpkbbf6e0f.xn--p1ai",
+  "title": "Эклектика — товары для офиса и дома",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "famil.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://famil.ru",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "familyfest.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://familyfest.ru",
+  "title": "Family Festival — онлайн-магазин одежды и обуви для всей семьи",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "muztorg.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://muztorg.ru/",
+  "title": "..",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "xn--38-vlchkfgb5k0a.xn--p1ai",
+  "alive": true,
+  "http": 200,
+  "final": "https://xn--38-vlchkfgb5k0a.xn--p1ai",
+  "title": "Главная - Оптово-розничный магазин «Экономия»",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "mygrass.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://mygrass.ru",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "xn--80aaadiigoj9aqmm.xn--p1ai",
+  "alive": true,
+  "http": 200,
+  "final": "https://xn--80aaadiigoj9aqmm.xn--p1ai",
+  "title": "Сеть продуктовых дискаунтеров Победа",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "aptrade.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://aptrade.ru/ru",
+  "title": "Эй-Пи Трейд",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "artgroup24.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://artgroup24.ru",
+  "title": "Главная - Рекламное агентство АртГруппа. Красноярск",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "mvideo.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://www.mvideo.ru/",
+  "title": "М.Видео - интернет-магазин цифровой и бытовой техники и электроники, низкие цены, большой каталог, отзывы.",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "shopandshow.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://n1media.ru/",
+  "title": "Новости шоу бизнеса России. Светская хроника и новости звёзд | N1 Media",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "favorit-pro.com",
+  "alive": true,
+  "http": 200,
+  "final": "https://favorit-pro.com",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "xn--90aohplh3end.xn--p1ai",
+  "alive": true,
+  "http": 200,
+  "final": "https://xn--90aohplh3end.xn--p1ai",
+  "title": "главная страница",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "fix-price.com",
+  "alive": true,
+  "http": 200,
+  "final": "https://fix-price.com",
+  "title": "",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "nahodka-magazin.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://nahodka-magazin.ru",
+  "title": "Низкие цены на продукты питания. Сеть магазинов «Находка»",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ },
+ {
+  "domain": "sibsemena.ru",
+  "alive": true,
+  "http": 200,
+  "final": "https://sibsemena.ru",
+  "title": "Cемена для Cибири",
+  "battery": "не найдено",
+  "evidence": "",
+  "method": ""
+ }
+]
