@@ -825,9 +825,9 @@
   "http": 403,
   "final": "https://tdglobus.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://tdglobus.ru/batarejki-fonari",
+  "method": "sitemap (2-й проход)"
  },
  {
   "domain": "konturfoto.ru",
@@ -985,9 +985,9 @@
   "http": 401,
   "final": "https://technopark.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://www.technopark.ru/xml/sitemaps/www/elementy-pitaniya_1.xml",
+  "method": "sitemap (2-й проход)"
  },
  {
   "domain": "tdvoronezh.ru",
@@ -1065,9 +1065,9 @@
   "http": 401,
   "final": "https://dns-shop.ru",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://www.dns-shop.ru/product/00041d0f3b7b1b80/batarejka-varta-longlife-d-lr20r20er34615/",
+  "method": "sitemap (2-й проход)"
  },
  {
   "domain": "tesla39.ru",
@@ -1945,9 +1945,9 @@
   "http": 503,
   "final": "https://radiomirnsk.ru/",
   "title": "",
-  "battery": "закрыт ботозащитой",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://radiomirnsk.ru/products/388878965-element_pitaniya_18505_sr2_3_6v_robiton",
+  "method": "sitemap (2-й проход)"
  },
  {
   "domain": "ib-dandy.ru",
@@ -3695,9 +3695,9 @@
   "http": 200,
   "final": "https://vinograd.shop",
   "title": "Интернет-магазин напитков Виноград в Иркутске",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://vinograd.shop/search?query=батарейки",
+  "method": "поиск по сайту (2-й проход)"
  },
  {
   "domain": "sphinx-md.ru",
@@ -3825,9 +3825,9 @@
   "http": 200,
   "final": "https://merlion.com",
   "title": "MERLION",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://merlion.com/search?text=батарейки",
+  "method": "поиск по сайту (2-й проход)"
  },
  {
   "domain": "tdmega.com",
@@ -3855,9 +3855,9 @@
   "http": 200,
   "final": "https://lenta.com",
   "title": "Доставка продуктов на дом – заказать из магазина Лента. 🌻 Москва, Санкт-Петербург и города России",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://lenta.com/catalog/?q=батарейки",
+  "method": "поиск по сайту (2-й проход)"
  },
  {
   "domain": "electromontage.ru",
@@ -3875,9 +3875,9 @@
   "http": 200,
   "final": "https://gkm25.ru",
   "title": "Натуральный японский кофе в дрип-пакетах",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://gkm25.ru/catalog/",
+  "method": "категория (2-й проход)"
  },
  {
   "domain": "rpk.group",
@@ -3885,9 +3885,9 @@
   "http": 200,
   "final": "https://rpk.group/ru/",
   "title": "Русская переводческая компания - Главная",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://rpk.group/ru/category/batareyki",
+  "method": "ссылка в каталоге (2-й проход)"
  },
  {
   "domain": "nahodka-magazin.ru",
@@ -3905,9 +3905,9 @@
   "http": 200,
   "final": "https://swnn.ru",
   "title": "Сладкая жизнь - партнер магазинов",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://swnn.ru/index.php?route=product/search&search=батарейки",
+  "method": "поиск по сайту (2-й проход)"
  },
  {
   "domain": "obi.ru",
@@ -3915,9 +3915,9 @@
   "http": 200,
   "final": "https://domlenta.ru/",
   "title": "Все для дома, ремонта, дачи и сада | «Дом Лента»",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://domlenta.ru/catalog/?q=батарейки",
+  "method": "поиск по сайту (2-й проход)"
  },
  {
   "domain": "system-r.ru",
@@ -3975,9 +3975,9 @@
   "http": 200,
   "final": "https://electro58.ru",
   "title": "База электроматериалов 50 Герц - электротехнические изделия с доставкой по России",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://electro58.ru/catalog/",
+  "method": "категория (2-й проход)"
  },
  {
   "domain": "slata.ru",
@@ -4265,9 +4265,9 @@
   "http": 200,
   "final": "https://metropolis-online.ru",
   "title": "Метрополис | Низкие цены всегда рядом",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://metropolis-online.ru/catalog/search?q=батарейки",
+  "method": "поиск по сайту (2-й проход)"
  },
  {
   "domain": "yurinat.ru",
@@ -4295,9 +4295,9 @@
   "http": 200,
   "final": "https://vikontpro.ru",
   "title": "Оптовый поставщик , купить товары оптом по низким ценам — Виконт",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://vikontpro.ru/catalog/?q=батарейки",
+  "method": "поиск по сайту (2-й проход)"
  },
  {
   "domain": "muztorg.ru",
@@ -4315,9 +4315,9 @@
   "http": 200,
   "final": "https://mr-pak.ru",
   "title": "Мистер Пак, Одноразовая посуда, упаковка, канцтовары, хозтовары, бытовая химия.",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://mr-pak.ru/index.php?route=product/search&search=батарейки",
+  "method": "поиск по сайту (2-й проход)"
  },
  {
   "domain": "optomhim.ru",
@@ -4335,9 +4335,9 @@
   "http": 200,
   "final": "https://elimkanz.ru",
   "title": "ЭлимКанц",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://elimkanz.ru/search/?q=батарейки",
+  "method": "поиск по сайту (2-й проход)"
  },
  {
   "domain": "foto-sivma.ru",
