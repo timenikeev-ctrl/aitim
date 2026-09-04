@@ -3066,9 +3066,10 @@
   "http": 200,
   "final": "https://expireddomains.com/domain/azuma.store?utm_source=redi",
   "title": "azuma.store — Buy this expired domain | ExpiredDomains.com",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "familyfest.ru",
@@ -3076,9 +3077,10 @@
   "http": 200,
   "final": "https://familyfest.ru",
   "title": "Family Festival — онлайн-магазин одежды и обуви для всей семьи",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "avtopasker.ru",
@@ -3096,9 +3098,10 @@
   "http": 200,
   "final": "https://evrolist.ru",
   "title": "Главная",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "vrnbatt.ru",
@@ -3106,9 +3109,9 @@
   "http": 200,
   "final": "https://www.reg.ru/domain/shop/lot/vrnbatt.ru",
   "title": "",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "Воронеж Бэттерис: http://vrnbatt.ru/",
+  "method": "проверено ранее по ссылке"
  },
  {
   "domain": "vprok.ru",
@@ -3116,9 +3119,9 @@
   "http": 200,
   "final": "https://vprok.ru",
   "title": "",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "Впрок (Перекрёсток Впрок): https://www.vprok.ru/catalog/1458/batareyki",
+  "method": "проверено ранее по ссылке"
  },
  {
   "domain": "hozmarket.store",
@@ -3126,9 +3129,10 @@
   "http": 200,
   "final": "https://secure.vtly.xyz/loading.html?url=https%3A%2F%2Fgoodpics.net%2Fgo%2F2974168%3Fsource%3Dhozmarket.store%26topic%3DGeneric%26placement%3D%252F%26keyword%3Ddiscount%2Bhome%2Bgoods%2Bstore%26ref_id%3D07f183ad8d6b8094&detectWallet=1&detectExtensions=1&walletTimeoutMs=250&extensionTimeoutMs=250&botDetection=1",
   "title": "Verifying you are human. This may take a few seconds.",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://hozmarket.store/tovar/batareyki-litievyie-3v-tabletka-cr2016-duracell-1-280708-9695854.html — Хозмаркет, Красноярск и Хакасия; Duracell CR2016",
+  "method": "поисковый индекс",
+  "is_shop": "нет"
  },
  {
   "domain": "сибирьдистрибуция.рф",
@@ -3136,9 +3140,10 @@
   "http": 200,
   "final": "https://xn--90aaiobbab1ecegnr9b9exc.xn--p1ai",
   "title": "Riobet Casino (Риобет Казино): официальный сайт, бонусы, вход на сайт, регистрация",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "souzmultpark.ru",
@@ -3146,9 +3151,10 @@
   "http": 200,
   "final": "https://souzmultpark.ru",
   "title": "СоюзМультПарк - интерактивный парк аттракционов на ВДНХ с любимыми мультгероями",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "av.ru",
@@ -3156,9 +3162,9 @@
   "http": 200,
   "final": "https://av.ru",
   "title": "",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "Азбука Вкуса: https://av.ru/catalog/dom-avto-dacha/batareyki-lampochki/",
+  "method": "проверено ранее по ссылке"
  },
  {
   "domain": "interraparfum.ru",
@@ -3166,9 +3172,10 @@
   "http": 200,
   "final": "https://interraparfum.ru",
   "title": "",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "leonardo.ru",
@@ -3176,9 +3183,10 @@
   "http": 200,
   "final": "https://leonardo.ru",
   "title": "",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "zetter.ru",
@@ -3186,9 +3194,10 @@
   "http": 200,
   "final": "https://zetter.ru",
   "title": "Zetter - товары для быстрой и эффективной уборки",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "securon.ru",
@@ -3196,9 +3205,10 @@
   "http": 200,
   "final": "https://securon.ru",
   "title": "Охранные системы - Официальный сайт компании SECURON",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "yandex.ru",
@@ -3206,9 +3216,9 @@
   "http": 200,
   "final": "https://sso.passport.yandex.ru/push?uuid=938432e9-f400-40c9-a1a1-a22896d2bea5&retpath=https%3A%2F%2Fdzen.ru%2F%3Fyredirect%3Dtrue%26is_autologin_ya%3Dtrue",
   "title": "",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "Яндекс Маркет: https://market.yandex.ru/catalog--batareiki-i-akkumuliatory-dlia-audio-i-videotekhniki/26914470/list",
+  "method": "проверено ранее по ссылке"
  },
  {
   "domain": "catalogz.ru",
@@ -3216,9 +3226,10 @@
   "http": 200,
   "final": "https://catalogz.ru",
   "title": "",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "favorit-pro.com",
@@ -3226,9 +3237,10 @@
   "http": 200,
   "final": "https://favorit-pro.com",
   "title": "",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "leonardohobby.ru",
@@ -3236,9 +3248,9 @@
   "http": 200,
   "final": "https://leonardo.ru/",
   "title": "",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "Леонардо: https://leonardohobby.ru/ishop/tree_3811888309/",
+  "method": "проверено ранее по ссылке"
  },
  {
   "domain": "offprice.eu",
@@ -3246,9 +3258,10 @@
   "http": 200,
   "final": "https://offprice.eu",
   "title": "Аутлет OFFPRICE — официальный сайт | Магазины «ОФФПРАЙС» в Москве, Мытищах",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "konnekt58.ru",
@@ -3256,9 +3269,10 @@
   "http": 200,
   "final": "https://konnekt58.ru",
   "title": "konnekt58.ru",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "nokturn.ru",
@@ -3266,9 +3280,10 @@
   "http": 200,
   "final": "https://nokturn.ru",
   "title": "Ноктюрн",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "onlinetrade.ru",
@@ -3276,9 +3291,9 @@
   "http": 200,
   "final": "https://www.onlinetrade.ru/",
   "title": "",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "ОНЛАЙН ТРЕЙД.РУ: https://www.onlinetrade.ru/catalogue/batareyki-c59/",
+  "method": "проверено ранее по ссылке"
  },
  {
   "domain": "perekrestok.ru",
@@ -3286,9 +3301,9 @@
   "http": 200,
   "final": "https://perekrestok.ru",
   "title": "",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "Перекрёсток: https://www.perekrestok.ru/cat/search?search=%D0%B1%D0%B0%D1%82%D0%B0%D1%80%D0%B5%D0%B9%D0%BA%D0%B8",
+  "method": "проверено ранее по ссылке"
  },
  {
   "domain": "famil.ru",
@@ -3296,9 +3311,10 @@
   "http": 200,
   "final": "https://famil.ru",
   "title": "",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "aventa-electro.ru",
@@ -3306,9 +3322,10 @@
   "http": 200,
   "final": "https://aventa-electro.ru",
   "title": "Авента - главная",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "sputnik64.ru",
@@ -3316,9 +3333,10 @@
   "http": 200,
   "final": "https://sputnik64.ru",
   "title": "Сеть магазинов «Спутник»",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "catran.ru",
@@ -3326,9 +3344,10 @@
   "http": 200,
   "final": "https://catran.ru",
   "title": "Главная",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "эколайн36.рф",
@@ -3346,9 +3365,10 @@
   "http": 200,
   "final": "https://hozsfera.ru",
   "title": "Хозтовары оптом",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "smoker.su",
@@ -3356,9 +3376,10 @@
   "http": 200,
   "final": "https://smoker.su",
   "title": "Мандаринка | Оптово-розничный магазин",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "tranzit-oil.com",
@@ -3366,9 +3387,10 @@
   "http": 200,
   "final": "https://tranzit-oil.com",
   "title": "«Транзит-Ойл» — оптовая продажа, логистика и дистрибуция автотоваров",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://shop.tranzit-oil.com",
+  "method": "раздел каталога (4-й проход)",
+  "is_shop": "нет"
  },
  {
   "domain": "raznotorg.com",
@@ -3376,9 +3398,10 @@
   "http": 200,
   "final": "https://raznotorg.com",
   "title": "Domain is Registered",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://raznotorg.com/vsyo-dlya-doma/batareyki/ — Разноторг; EPILSO LR6/AA, опт",
+  "method": "поисковый индекс",
+  "is_shop": "нет"
  },
  {
   "domain": "neptunsale.ru",
@@ -3386,9 +3409,10 @@
   "http": 200,
   "final": "https://neptunsale.ru",
   "title": "«Нептун» – защита от протечек воды | Официальный сайт",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://neptunsale.ru/products/category/neptun-base",
+  "method": "раздел каталога (4-й проход)",
+  "is_shop": "да"
  },
  {
   "domain": "drujba-tc.ru",
@@ -3396,9 +3420,10 @@
   "http": 200,
   "final": "https://drujba-tc.ru",
   "title": "Официальный сайт торговой компании &quot;Дружба&quot;, г. Рыбинск",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "avoska.ru",
@@ -3406,9 +3431,10 @@
   "http": 200,
   "final": "https://avoska.ru",
   "title": "Сеть магазинов \"Авоська\"",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "5ka.ru",
@@ -3416,9 +3442,9 @@
   "http": 200,
   "final": "https://5ka.ru",
   "title": "",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "Пятёрочка: https://5ka.ru/catalog/batareyki--251C12959/",
+  "method": "проверено ранее по ссылке"
  },
  {
   "domain": "electro-mpo.ru",
@@ -3426,9 +3452,10 @@
   "http": 204,
   "final": "https://www.electro-mpo.ru/",
   "title": "",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://www.electro-mpo.ru/catalog/batareyki_akkumulyatory_zaryadnye_ustroystva_fonar/batarejki/ — МПО Электромонтаж; 130+ SKU, отдельный раздел GP; Duracell, Energizer, Varta, Renata, Трофи",
+  "method": "поисковый индекс",
+  "is_shop": "нет"
  },
  {
   "domain": "gamma-center.ru",
@@ -3436,9 +3463,10 @@
   "http": 200,
   "final": "https://www.gamma-center.ru/",
   "title": "Банковское оборудование «Гамма-Центр». Оборудование для банков в Москве, Санкт-Петербурге и др. городах.",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "shamsa.net",
@@ -3446,9 +3474,10 @@
   "http": 200,
   "final": "https://shamsa.net",
   "title": "Шамса",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "foto4u.su",
@@ -3456,9 +3485,10 @@
   "http": 200,
   "final": "https://www.foto4u.su/",
   "title": "Фотосалон в Екатеринбурге | Фотоуслуги по выгодной цене",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "aliance.org",
@@ -3466,9 +3496,10 @@
   "http": 200,
   "final": "https://aliance.org",
   "title": "Компания \"Альянс\" - Дистрибутор бытовой химиии, парфюмерии и косметики, логистический оператор в Уральском регионе с 199",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "союзупак.рф",
@@ -3476,9 +3507,10 @@
   "http": 200,
   "final": "https://souzupack.ru/",
   "title": "KillBot user verification [160.79.106.141] [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Ge",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "agora-market.ru",
@@ -3486,9 +3518,10 @@
   "http": 200,
   "final": "https://agora-market.ru",
   "title": "Интернет-магазин Agora-Market закрыт.",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://agora-market.ru/catalog/tovary-dlya-doma-i-dachi/batareyki-akkumulyatory-i-prochee/ — Agora Market; GP Lithium CR2032, GP Super Alkaline, GP GreenCell, Nanfu",
+  "method": "поисковый индекс",
+  "is_shop": "нет"
  },
  {
   "domain": "sunnet-omsk.ru",
@@ -3496,9 +3529,10 @@
   "http": 200,
   "final": "https://sunnet-omsk.ru",
   "title": "������ (SunNet Omsk) ���� ����������������",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "magnum.kz",
@@ -3506,9 +3540,10 @@
   "http": 200,
   "final": "https://magnum.kz",
   "title": "magnum",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "aka-scan.ru",
@@ -3516,9 +3551,10 @@
   "http": 200,
   "final": "https://aka-scan.ru",
   "title": "АКА-Скан | Приборы неразрушающего контроля | Толщиномеры покрытий, дефектоскопы, магнитометры, ферритометры, трещиномеры",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "sk-trade.ru",
@@ -3526,9 +3562,10 @@
   "http": 200,
   "final": "https://sk-trade.ru",
   "title": "Казино ⚡ Играть на официальном сайте казино",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "tovarbezpereplat.ru",
@@ -3536,9 +3573,10 @@
   "http": 200,
   "final": "https://tovarbezpereplat.ru",
   "title": "Товар без переплат",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "ratio-group.ru",
@@ -3546,9 +3584,10 @@
   "http": 200,
   "final": "https://ratio-group.ru",
   "title": "",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "neftm.ru",
@@ -3556,9 +3595,10 @@
   "http": 200,
   "final": "https://neftm.ru",
   "title": "Главная &mdash; Нефтьмагистраль",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://neftm.ru/poisk/?q=батарейки",
+  "method": "поиск по сайту (4-й проход)",
+  "is_shop": "да"
  },
  {
   "domain": "pg.pro",
@@ -3566,9 +3606,10 @@
   "http": 200,
   "final": "https://pg.pro",
   "title": "Partners Group",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "di-house.ru",
@@ -3576,9 +3617,10 @@
   "http": 200,
   "final": "https://di-house.ru",
   "title": "diHouse – дистрибьютор электроники и&nbsp;бытовой техники в&nbsp;РФ",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "verno-info.ru",
@@ -3586,9 +3628,10 @@
   "http": 200,
   "final": "https://verno-info.ru",
   "title": "Сеть универсамов Верный",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "ярче.рф",
@@ -3596,9 +3639,10 @@
   "http": 200,
   "final": "https://xn--e1avv4a.xn--p1ai",
   "title": "\"Ярче!\" - сеть супермаркетов.",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "csat.ru",
@@ -3606,9 +3650,10 @@
   "http": 200,
   "final": "https://www.csat.ru/",
   "title": "Цезарь Сателлит – системы охраны и сигнализации для недвижимости и автомобилей | Цезарь Сателлит в Москве",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "relefopt.ru",
@@ -3616,9 +3661,10 @@
   "http": 200,
   "final": "https://relefopt.ru",
   "title": "",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "vintboltovich.ru",
@@ -3626,9 +3672,10 @@
   "http": 200,
   "final": "https://vintboltovich.ru",
   "title": "Винт Болтович",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "megamarket.ru",
@@ -3636,9 +3683,9 @@
   "http": 200,
   "final": "https://megamarket.ru",
   "title": "",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "Мегамаркет: https://megamarket.ru/catalog/batarejki/",
+  "method": "проверено ранее по ссылке"
  },
  {
   "domain": "e-nokturn.ru",
@@ -3646,9 +3693,10 @@
   "http": 200,
   "final": "https://e-nokturn.ru",
   "title": "Ноктюрн",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "delta.ru",
@@ -3656,9 +3704,10 @@
   "http": 200,
   "final": "https://www.delta.ru/",
   "title": "Услуги охраны в Москве, установка охранных систем для дома, бизнеса и автомобилей | Охранное предприятие DELTA",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "samokat.ru",
@@ -3666,9 +3715,9 @@
   "http": 200,
   "final": "https://samokat.ru",
   "title": "",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "Самокат: https://samokat.ru/",
+  "method": "проверено ранее по ссылке"
  },
  {
   "domain": "relef.ru",
@@ -3676,9 +3725,10 @@
   "http": 200,
   "final": "https://relef.ru",
   "title": "Рельеф",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "tdshkurenko.ru",
@@ -3686,9 +3736,10 @@
   "http": 200,
   "final": "https://tdshkurenko.ru",
   "title": "ТД Шкуренко",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "gipermarketdom.ru",
@@ -3696,9 +3747,10 @@
   "http": 200,
   "final": "https://gipermarketdom.ru/",
   "title": "..",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://gipermarketdom.ru/catalog/batareyki/ — Гипермаркет ДОМ; Трофи Energy | регионы: 74.gipermarketdom.ru (Челябинск)",
+  "method": "поисковый индекс",
+  "is_shop": "нет"
  },
  {
   "domain": "tochka-online.ru",
@@ -3706,9 +3758,10 @@
   "http": 200,
   "final": "https://pozayavke.ru",
   "title": "B2B маркетплейс По заявке - товары оптом от производителей. Актуальные цены, прямые поставки, наличие товаров и удобные ",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://tochka-online.ru/4s/catalog/batareyki-elementy-pitaniya_164.html — Точка Онлайн; опт ДВ",
+  "method": "поисковый индекс",
+  "is_shop": "нет"
  },
  {
   "domain": "kopilkago.ru",
@@ -3716,9 +3769,10 @@
   "http": 200,
   "final": "https://kopilkago.ru",
   "title": "«Командор», «Аллея», «Хороший»: доставка и самовывоз | Единая программа лояльности Копилка — работает везде",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "plenki.net",
@@ -3726,9 +3780,10 @@
   "http": 200,
   "final": "https://plenki.net",
   "title": "Фотоуслуги в Москве - фотоцентры Plenki.Net",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "c-e.ru",
@@ -3736,9 +3791,10 @@
   "http": 200,
   "final": "https://www.c-e.ru/",
   "title": "Купить канцтовары, хозтовары и мебель в канцелярском гипермаркете Секретарь",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "narodny38.ru",
@@ -3746,9 +3802,10 @@
   "http": 200,
   "final": "https://narodny38.ru",
   "title": "Народный: Всегда Низкие Цены - Продукты в Иркутской области",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "detmir.ru",
@@ -3756,9 +3813,9 @@
   "http": 200,
   "final": "https://www.detmir.ru/",
   "title": "Детский мир | Интернет-магазин детских товаров",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "Детский мир: https://www.detmir.ru/catalog/index/name/batteries1/",
+  "method": "проверено ранее по ссылке"
  },
  {
   "domain": "abisys.pro",
@@ -3766,9 +3823,10 @@
   "http": 200,
   "final": "https://abisys.pro",
   "title": "Abisys — ИТ-инфраструктура бизнеса под контролем",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "mkc58.ru",
@@ -3776,9 +3834,10 @@
   "http": 200,
   "final": "https://mkc58.ru",
   "title": "��� ��� - ������ ��� � ����� (����������� �������, ����������� ����, ��� ������������, ���������) &mdash; �������",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "xn--90aohplh3end.xn--p1ai",
@@ -3786,9 +3845,10 @@
   "http": 200,
   "final": "https://xn--90aohplh3end.xn--p1ai",
   "title": "главная страница",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "vinograd.shop",
@@ -3806,9 +3866,10 @@
   "http": 200,
   "final": "https://sphinx-md.ru",
   "title": "Ручные металлоискатели и досмотровые металлодетекторы СФИНКС | Официальный сайт производителя ЗАО &quot;СФИНКС&quot; - С",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "prostor-market.ru",
@@ -3816,9 +3877,10 @@
   "http": 200,
   "final": "https://prostor-market.ru",
   "title": "",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://www.prostor-market.ru/catalog/batareyki/alkalinovye_batareyki/ — ПРОСТОР-МАРКЕТ; алкалиновые, GP оптом",
+  "method": "поисковый индекс",
+  "is_shop": "нет"
  },
  {
   "domain": "vertical.ru",
@@ -3826,9 +3888,10 @@
   "http": 200,
   "final": "https://vertical.ru",
   "title": "Вертикаль",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "logistica-vector.ru",
@@ -3836,9 +3899,10 @@
   "http": 200,
   "final": "https://logistica-vector.ru",
   "title": "Дистрибьюторско-логистическая компания ВЕКТОР-ГРУПП Логистика, Калуга",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "artgroup24.ru",
@@ -3846,9 +3910,10 @@
   "http": 200,
   "final": "https://artgroup24.ru",
   "title": "Главная - Рекламное агентство АртГруппа. Красноярск",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "poroshki100.ru",
@@ -3856,9 +3921,10 @@
   "http": 200,
   "final": "https://poroshki100.ru",
   "title": "Бытовая химия в Астрахани оптом",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "uk59.ru",
@@ -3866,9 +3932,10 @@
   "http": 200,
   "final": "https://uk59.ru",
   "title": "ООО &quot;УРАЛКОМПЛЕКТ&quot;",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "omikom.ru",
@@ -3876,9 +3943,10 @@
   "http": 200,
   "final": "https://omikom.ru",
   "title": "Оптический кабель и компоненты: лучшие предложения на рынке 2024!",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "7mya.ru",
@@ -3886,9 +3954,10 @@
   "http": 200,
   "final": "https://7mya.ru",
   "title": "7mya.ru",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "ts-7dney.ru",
@@ -3896,9 +3965,10 @@
   "http": 200,
   "final": "https://ts-7dney.ru",
   "title": "",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "efkann.ru",
@@ -3906,9 +3976,10 @@
   "http": 200,
   "final": "https://efkann.ru",
   "title": "Спецодежда, спецобувь, средства индивидуальной защиты - ЕфКа Спецодежда",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "fix-price.com",
@@ -3916,9 +3987,9 @@
   "http": 200,
   "final": "https://fix-price.com",
   "title": "",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "Fix Price: https://fix-price.com/catalog/dlya-doma/p-5014027-batareyki-alkalinovye-aa-4-sht",
+  "method": "проверено ранее по ссылке"
  },
  {
   "domain": "merlion.com",
@@ -3936,9 +4007,10 @@
   "http": 200,
   "final": "https://tdmega.com",
   "title": "Дистрибьютор ООО \"Мега-Полис\" | Главная",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "s-globus.ru",
@@ -3946,9 +4018,10 @@
   "http": 200,
   "final": "https://s-globus.ru",
   "title": "Система «Глобус»",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "lenta.com",
@@ -3966,9 +4039,10 @@
   "http": 200,
   "final": "https://electromontage.ru",
   "title": "Проектирование и монтаж систем электроснабжения и освещения под ключ в Москве и МО с гарантией - Home",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "gkm25.ru",
@@ -3996,9 +4070,10 @@
   "http": 200,
   "final": "https://nahodka-magazin.ru",
   "title": "Низкие цены на продукты питания. Сеть магазинов «Находка»",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "swnn.ru",
@@ -4026,9 +4101,10 @@
   "http": 200,
   "final": "https://system-r.ru",
   "title": "Производство электроники в Москве на заказ, производитель электроники | Системные решения",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "donako.org",
@@ -4036,9 +4112,10 @@
   "http": 200,
   "final": "https://donako.org",
   "title": "ДОНАКО — сеть АЗС в Воронеже",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "dixy.ru",
@@ -4046,9 +4123,9 @@
   "http": 200,
   "final": "https://dixy.ru",
   "title": "Не удалось загрузить сайт",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "Дикси: https://dixy.ru/catalog/tovary-dlya-doma-i-dachi/osveshchenie-remont-batareyki/",
+  "method": "проверено ранее по ссылке"
  },
  {
   "domain": "pharmeconom.ru",
@@ -4056,9 +4133,10 @@
   "http": 200,
   "final": "https://www.pharmeconom.ru/",
   "title": "Аптека ФАРМЭКОНОМ — поиск и заказ лекарств по выгодным ценам",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "sm-komandor.ru",
@@ -4066,9 +4144,9 @@
   "http": 200,
   "final": "https://sm-komandor.ru",
   "title": "Командор — крупнейшая торговая сеть Восточной Сибири",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "Командор: https://delivery.sm-komandor.ru/catalog/batareyki-akkumulyatory_193/",
+  "method": "проверено ранее по ссылке"
  },
  {
   "domain": "electro58.ru",
@@ -4086,9 +4164,10 @@
   "http": 200,
   "final": "https://slata.ru",
   "title": "Слата — сеть супермаркетов",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "магазин, батареек не найдено",
+  "evidence": "батарейки только на сдачу в экобоксы (экоинициатива), в продаже не найдены",
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "globus-online.kg",
@@ -4096,9 +4175,10 @@
   "http": 200,
   "final": "https://globus-online.kg",
   "title": "Купить продукты с доставкой на дом из Globus Online",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://globus-online.kg/ru-kg/catalog/grocery/category/d87878ee50cc4208f9d6e9b2c6608111",
+  "method": "раздел каталога (4-й проход)",
+  "is_shop": "да"
  },
  {
   "domain": "navitel.ru",
@@ -4106,9 +4186,10 @@
   "http": 200,
   "final": "https://navitel.com/en",
   "title": "NAVITEL detailed offline maps for iPhone, iPad, Android",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://navitel.com/?s=батарейки",
+  "method": "поиск по сайту (4-й проход)",
+  "is_shop": "нет"
  },
  {
   "domain": "aliexpress.ru",
@@ -4116,9 +4197,10 @@
   "http": 200,
   "final": "https://aliexpress.ru",
   "title": "",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "lifemart.ru",
@@ -4126,9 +4208,10 @@
   "http": 200,
   "final": "https://lifemart.ru/ru/ekb",
   "title": "Круглосуточная доставка хорошей еды Жизньмарт за 20 минут в городе Екатеринбург",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "aptrade.ru",
@@ -4136,9 +4219,10 @@
   "http": 200,
   "final": "https://aptrade.ru/ru",
   "title": "Эй-Пи Трейд",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "samsonopt.ru",
@@ -4146,9 +4230,9 @@
   "http": 200,
   "final": "https://www.samsonopt.ru/",
   "title": "Самсон-опт - оптовые поставки офисных товаров для школы и дома, купить канцтовары от поставщика и производителя. Недорог",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "Самсон-опт: https://www.samsonopt.ru/zakaz/index.php?ID=25792",
+  "method": "проверено ранее по ссылке"
  },
  {
   "domain": "shopandshow.ru",
@@ -4156,9 +4240,10 @@
   "http": 200,
   "final": "https://n1media.ru/",
   "title": "Новости шоу бизнеса России. Светская хроника и новости звёзд | N1 Media",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "retailhoreca.ru",
@@ -4166,9 +4251,10 @@
   "http": 200,
   "final": "https://retailhoreca.ru",
   "title": "Дистрибьютор автоматических кофемашин Dr.Coffee, WMF, Schaerer и сотен других известных брендов | РусХОЛТС, официальный ",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://retailhoreca.ru/produkty-fmcg — РусХОЛТС Retail&HoReCa; батарейки в топе FMCG для АЗС",
+  "method": "поисковый индекс",
+  "is_shop": "да"
  },
  {
   "domain": "serviko.ru",
@@ -4176,9 +4262,10 @@
   "http": 200,
   "final": "https://www.serviko.ru/",
   "title": "СЕРВИКО-официальный сайт | Логистические и дистрибьюторские услуги в Сибири",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "tvoydom.ru",
@@ -4186,9 +4273,10 @@
   "http": 200,
   "final": "https://tvoydom.ru",
   "title": "Твой Дом: гипермаркет товаров для дома, дачи и ремонта",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://tvoydom.ru/catalog/elementy-pitaniya-3/ — Твой Дом; 56 SKU от 159 ₽",
+  "method": "поисковый индекс",
+  "is_shop": "да"
  },
  {
   "domain": "rustel.kg",
@@ -4196,9 +4284,10 @@
   "http": 200,
   "final": "https://rustel.kg",
   "title": "&quot;Rustel&quot; | Компания Рустэль одна из ведущих дистрибьюторских компаний в Кыргызстане с офисами в Бишкеке, Оше и",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "mygrass.ru",
@@ -4206,9 +4295,10 @@
   "http": 200,
   "final": "https://mygrass.ru",
   "title": "",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "aptekus.ru",
@@ -4216,9 +4306,10 @@
   "http": 200,
   "final": "https://aptekus.ru",
   "title": "Аптека Низких Цен в Твери - официальный сайт",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "usta.group",
@@ -4226,9 +4317,10 @@
   "http": 200,
   "final": "https://usta.group",
   "title": "",
-  "battery": "не найдено",
+  "battery": "не интернет-магазин",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "нет"
  },
  {
   "domain": "1-2.su",
@@ -4236,9 +4328,10 @@
   "http": 200,
   "final": "https://1-2.su/site/login",
   "title": "SBAT - Login Site",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "megafon.ru",
@@ -4246,9 +4339,10 @@
   "http": 200,
   "final": "https://moscow.megafon.ru/",
   "title": "Официальный сайт МегаФона, Московский регион | Ведущий мобильный оператор России",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "miratorg.ru",
@@ -4256,9 +4350,10 @@
   "http": 200,
   "final": "https://miratorg.ru",
   "title": "Мы одна страна",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "rs24.ru",
@@ -4266,9 +4361,9 @@
   "http": 200,
   "final": "https://rs24.ru",
   "title": "Магазин электротехники RS24.ru - купить электротехническое оборудование онлайн, поставки электрооборудования оптом",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "Русский Свет: https://rs24.ru/product/391260",
+  "method": "проверено ранее по ссылке"
  },
  {
   "domain": "begemag.ru",
@@ -4276,9 +4371,10 @@
   "http": 200,
   "final": "https://begemag.ru",
   "title": "Сеть универсамов «Бегемаг» — Главная",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "lux31.ru",
@@ -4286,9 +4382,10 @@
   "http": 200,
   "final": "https://lux31.ru",
   "title": "ЛЮКС Белгород | Магазин правильных продуктов и напитков к праздничному столу| Официальный сайт",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "poiskhome.ru",
@@ -4296,9 +4393,10 @@
   "http": 200,
   "final": "https://poiskhome.ru",
   "title": "",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://poiskhome.ru/ — Poisk Home; элементы питания и ЗУ | регионы: novorossiysk., vladikavkaz.",
+  "method": "поисковый индекс",
+  "is_shop": "нет"
  },
  {
   "domain": "spektr-med.com",
@@ -4306,9 +4404,10 @@
   "http": 200,
   "final": "https://spektr-med.com",
   "title": "Спектр &#8212; Спектр",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "xn--38-vlchkfgb5k0a.xn--p1ai",
@@ -4326,9 +4425,10 @@
   "http": 200,
   "final": "https://tgabsolut-shop.ru",
   "title": "Интернет-магазин Абсолют",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "dme-dutyfree.ru",
@@ -4336,9 +4436,10 @@
   "http": 200,
   "final": "https://skydutyfree.ru/",
   "title": "Sky Duty Free - дьюти фри магазин алкоголя, парфюмерии, косметики в Москве, Екатеринбурге, Самаре, Нижнем Новгороде",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "zenitco.ru",
@@ -4346,9 +4447,10 @@
   "http": 200,
   "final": "https://zenitco.ru",
   "title": "Зенитка - Главная",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "магазин, батареек не найдено",
+  "evidence": "батарейки упоминаются лишь в характеристиках прицелов и фонарей, отдельной категории нет",
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "sila.by",
@@ -4356,9 +4458,10 @@
   "http": 200,
   "final": "https://sila.by",
   "title": "«ЭЛЕКТРОСИЛА» - интернет-магазин бытовой техники в Минске",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "metropolis-online.ru",
@@ -4376,9 +4479,10 @@
   "http": 200,
   "final": "https://yurinat.ru",
   "title": "Юринат | YURINAT",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "leomax.ru",
@@ -4386,9 +4490,10 @@
   "http": 200,
   "final": "https://www.leomax.ru/",
   "title": "Телемагазин LEOMAX — скидки до 90%",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "vikontpro.ru",
@@ -4406,9 +4511,10 @@
   "http": 200,
   "final": "https://muztorg.ru/",
   "title": "..",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "https://www.muztorg.ru/product/A051930 — Музторг; GP 1604A-5CR1, GP GreenCell 9V",
+  "method": "поисковый индекс",
+  "is_shop": "нет"
  },
  {
   "domain": "mr-pak.ru",
@@ -4426,9 +4532,10 @@
   "http": 200,
   "final": "https://optomhim.ru",
   "title": "optomhim.ru &#8211; Бытовая химия и косметика оптом ИП Пеплов",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "elimkanz.ru",
@@ -4446,9 +4553,10 @@
   "http": 200,
   "final": "https://foto-sivma.ru",
   "title": "Фотосеть Сивма в Воронеже",
-  "battery": "не найдено",
+  "battery": "магазин, батареек не найдено",
   "evidence": "",
-  "method": ""
+  "method": "",
+  "is_shop": "да"
  },
  {
   "domain": "avselectro.ru",
@@ -4456,8 +4564,8 @@
   "http": 200,
   "final": "https://avselectro.ru",
   "title": "АВС-электро - интернет магазин электротоваров",
-  "battery": "не найдено",
-  "evidence": "",
-  "method": ""
+  "battery": "да",
+  "evidence": "АВС-электро: https://avselectro.ru/catalog/elementy-pitaniya/batarejki",
+  "method": "проверено ранее по ссылке"
  }
 ]

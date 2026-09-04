@@ -27,6 +27,7 @@ for i, t in enumerate(NEW):
     c.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
 
 FILL = {"да": "C6EFCE", "не найдено": "FFEB9C", "закрыт ботозащитой": "FFE0B2",
+        "магазин, батареек не найдено": "FFEB9C", "не интернет-магазин": "E7E6E6",
         "сайт не отвечает": "FFC7CE"}
 
 for r in range(2, ws.max_row + 1):
@@ -59,17 +60,20 @@ wsc.cell(row=2, column=1,
     Font(name=FONT, size=10, italic=True)
 
 rows = [("Батарейки подтверждены", "да"),
-        ("Категория не найдена", "не найдено"),
+        ("Магазин есть, батареек не найдено", "магазин, батареек не найдено"),
+        ("Не интернет-магазин (сайт-визитка)", "не интернет-магазин"),
         ("Закрыт ботозащитой (сайт жив)", "закрыт ботозащитой"),
-        ("Сайт не отвечает / ошибка", None)]
+        ("HTTP-ошибка", None)]
 for i, t in enumerate(["Результат", "Доменов", "Доля"], 1):
     x = wsc.cell(row=4, column=i, value=t)
     x.fill, x.font, x.border = hdr_fill, hdr_font, bd
 cnt = collections.Counter(c["battery"] for c in chk.values())
 dead = sum(v for k, v in cnt.items() if k.startswith("сайт не отвечает") or k.startswith("ошибка"))
 total = len(chk)
-data = [(rows[0][0], cnt.get("да", 0)), (rows[1][0], cnt.get("не найдено", 0)),
-        (rows[2][0], cnt.get("закрыт ботозащитой", 0)), (rows[3][0], dead)]
+data = [(rows[0][0], cnt.get("да", 0)),
+        (rows[1][0], cnt.get("магазин, батареек не найдено", 0)),
+        (rows[2][0], cnt.get("не интернет-магазин", 0)),
+        (rows[3][0], cnt.get("закрыт ботозащитой", 0)), (rows[4][0], dead)]
 r = 5
 for label, n in data:
     wsc.cell(row=r, column=1, value=label).font = body
