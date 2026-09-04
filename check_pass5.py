@@ -36,6 +36,17 @@ async def fetch_variant(client, host):
 
 
 async def deep(client, rec):
+    """Обёртка с жёстким лимитом времени: один зависший домен не держит весь проход."""
+    try:
+        return await asyncio.wait_for(_deep(client, rec), timeout=120)
+    except asyncio.TimeoutError:
+        r = dict(rec)
+        r["battery"] = "недоступен через прокси"
+        r["evidence"] = "превышен лимит 120 с на проверку домена"
+        return r
+
+
+async def _deep(client, rec):
     d = rec["domain"]
     bare = d[4:] if d.startswith("www.") else d
     variants = [f"https://{bare}", f"https://www.{bare}"]
@@ -114,6 +125,9 @@ async def main():
             out[r["domain"]] = r
             if i % 10 == 0:
                 print(f"  {i}/{len(todo)}", flush=True)
+                json.dump(list(out.values()),
+                          open("/home/user/aitim/research/pass5_partial.json", "w"),
+                          ensure_ascii=False)
     merged = [out.get(r["domain"], r) for r in recs]
     json.dump(merged, open("/home/user/aitim/research/site_check.json", "w"),
               ensure_ascii=False, indent=1)
